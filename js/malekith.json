@@ -1,0 +1,196 @@
+{ 
+	"cards" : [
+		{
+			"name" : "Altered Penumbra",
+			"short" : "Evite une attaque grâce à un jet de discretion opposé à un jet de perception. En cas de réussite Malékith est téléporté a 3m avant que l'attaque ne soit effective et laisse une image majeure à la place de Malékith.",
+			"discipline" : "Veiled Moon",
+			"tags" : ["Téléportation","Chimère"],
+			"lvl" : 3,
+			"type" : "Counter",
+			"action" : "1 immediate action",
+			"range" : "Personal",
+			"target" : "one creature",
+			"duration" : "You",
+			"description" : "Position is relative to the Veiled Moon disciple’s thinking, and his position in the universe is mutable. Using these principles, the disciple may circumvent reality to remove himself from harms way when necessary. The initiator makes a Stealth check opposing the attacker’s Perception check. If successful then the initiator may teleport to any spot within 10- ft. away from his current position and leave a minor image duplicate of himself behind to take the attack of his foe in his place. Minor images created by this counter last for 1d4 rounds or until dispersed. This ability may be used to defend against spells and effects that directly target the initiator with an attack roll (such as ranged touch effects) or for those that allow for a Reflex save. If the attack would still encompass an area to where the initiator is teleporting (such as with the fireball spell he has not vacated), the initiator would still be struck by the attack."
+		},
+		
+		{
+			"name" : "Battle Dragon’s Stance",
+			"short" : "Reduce penalties of two-weapon fighting by 2, +4 to Initiative checks and adds 1d6 + initiation modifier to damage while two-weapon fighting.",
+			"discipline" : "Thrashing Dragon",
+			"tags" : [],
+			"lvl" : 3,
+			"type" : "Stance",
+			"action" : "1 swift action",
+			"range" : "Personal",
+			"target" : "You",
+			"duration" : "Stance",
+			"description" : "The Battle Dragon’s Stance shows the disciple how to balance his fighting style and through this centering of being, he may find speed, finesse, and power. While in the Battle Dragon’s Stance, the disciple reduces his two-weapon fighting penalties by 2, and gains a +4 bonus to Initiative checks and adds 1d6 + initiation modifier to melee damage while fighting with two weapons."
+		},
+		{
+			"name" : "Aura of Misfortune",
+			"short" : "Malus de 2 aux jets de sauvegardes des ennemis proches dans un rayon de 10.5m",
+			"discipline" : "Cursed Razor",
+			"tags" : [],
+			"lvl" : 1,
+			"type" : "Stance",
+			"action" : "1 swift action",
+			"range" : "Personal",
+			"target" : "You",
+			"duration" : "Stance",
+			"description" : "You project an area of ill fortune. While you maintain this stance, all opponents within close range (25 feet + 5 feet per 2 initiator levels) take a –2 penalty on saving throws. "
+		},
+		{
+			"name" : "Fading Strike",
+			"short" : "Téléportation avant ou après une attaque standard. Mouvement max en portée.",
+			"discipline" : "Veiled Moon",
+			"tags" : ["Téléportation"],
+			"lvl" : 2,
+			"type" : "Strike",
+			"action" : "1 standard action",
+			"range" : "Personal",
+			"target" : "You",
+			"description" : "The disciple learns the basic technique at this level for walking between worlds to reach locations that previously could be inaccessible on the mortal world and potentially attack foes at those locales. As a standard action, the initiator may either teleport to a location no farther away than his maximum movement speed, and make an attack action against an opponent as part of the same standard action, or attack an adjacent target and then teleport to a location no farther away than his maximum movement speed. The teleportation destination must be clearly seen by the disciple to teleport to that location, and it must be unoccupied."
+		},
+		
+				{
+			"name" : "Dizzying Venom Prana",
+			"short" : "La prochaine attaque rend la cible chancelante 1r, et inflige 2 point de dégat de sagesse sur un jet de sauvegarde vigueur DD15 raté.",
+			"discipline" : "Steel Serpent",
+			"tags" : [],
+			"lvl" : 1,
+			"type" : "Boost",
+			"action" : "1 swift action",
+			"range" : "Next melee attack or ranged attack",
+			"target" : "One creature",
+			"description" : "By focusing his ki onto a weapon, the disciple readies a spiritual poison which dizzies and confuses the minds of his foes. After initiating this boost, the next melee or ranged attack that the disciple makes staggers his foe for 1 round. In addition, if the target fails a Fortitude save (DC 11 + initiation modifier), the target also suffers 2 points of Wisdom damage. This is a supernatural ability."
+		},
+		{
+			"name" : "Dimensional Strike",
+			"short" : "La cible de cette attaque est prise au dépourvu.",
+			"discipline" : "Veiled Moon",
+			"tags" : [],
+			"lvl" : 1,
+			"type" : "Strike",
+			"action" : "1 standard action",
+			"range" : "Melee or ranged attack",
+			"target" : "One creature",
+			"description" : "By shifting slightly between two worlds, the disciple confuses the senses of his foe so he may land his attack more easily. The initiator initiating this strike causes his foe to be flat-footed to this attack."
+		},
+			{
+			"name" : "Disturbing Blow",
+			"short" : "Si cette attaque touche sa cible, elle subira un malus de -4 à sont prochain jet d'attaque",
+			"discipline" : "Veiled Moon",
+			"tags" : [],
+			"lvl" : 1,
+			"type" : "Strike",
+			"action" : "1 standard action",
+			"range" : "Melee attack",
+			"target" : "One creature",
+			"description" : "By establishing counter-resonance within the spirit of an enemy with a well-placed blow, the disciple may disrupt and disturb its next action. The initiator must make a melee attack against a target creature, and if successful, cause the target to suffer a -4 penalty to the next d20 roll that he makes."
+		},
+			{
+			"name" : "Iron Fang",
+			"short" : "+2D6 de dégat, et DD poison / Prana +2, ignore les réductions de dégat.",
+			"discipline" : "Steel Serpent",
+			"tags" : [],
+			"lvl" : 2,
+			"type" : "Strike",
+			"action" : "1 standard action",
+			"range" : "Melee attack or ranged attack",
+			"target" : "One creature",
+			"description" : "By hardening ki along edge of his weapon, the Steel Serpent disciple uses the pressure of his ki to penetrate the defenses of his foe. The disciple makes an attack against a foe which if successful inflicts an additional 2d6 points of damage and ignores any damage reduction the target may possess. Additionally, if the disciple is using poison or a prana maneuver with this strike, increase the saving throw DC by +2. This is a supernatural ability."
+		},
+		{
+			"name" : "Poisonner Stance",
+			"short" : "Permet d'appliquer des poisons sans risques de s'empoisonner, et augment le DD des poisons appliqués de 2.",
+			"discipline" : "Steel Serpent",
+			"tags" : [],
+			"lvl" : 1,
+			"type" : "Stance",
+			"action" : "1 swift action",
+			"range" : "Personal",
+			"target" : "You",
+			"duration" : "Stance",
+			"description" : "One of the first lessons of Steel Serpent disciples is the knowledge of mundane poisons and how to use them with expertise. While in this stance, the disciple gains the poison use class feature (the disciple no longer risks accidentally poisoning himself when attempting to apply poison to a weapon) and gains a +1 DC per two initiator levels as a competence bonus (maximum +10) to the saving throw DC’s of any poison (mundane, magical, sting maneuver or prana maneuver) he applies through the use of this stance."
+		},{
+			"name" : "Offensive Roll",
+			"short" : "Jet d'acrobaties vs CA de l'adversaire : pris au dépourvu +1D6 de dégat.",
+			"discipline" : "Thrashing Dragon",
+			"tags" : [],
+			"lvl" : 1,
+			"type" : "Strike",
+			"action" : "1 full-round action",
+			"range" : "Melee attack",
+			"target" : "One creature",
+			"description" : "As the disciple moves by his opponent, he may drop into a tumbling roll and strike at it from a surprising angle. The initiator must move at least 10 ft. alongside an enemy (which provokes attacks of opportunity unless the initiator is using Acrobatics to tumble) and make a Acrobatics check with a DC equal to the target’s Armor Class. If successful, the target is considered flat-footed and the strike inflicts an additional 1d6 points of damage. The character initiating this maneuver may move up to his full base speed, making the attack along any point of the moment"
+		},
+		
+		{
+			"name" : "Leaping Dragon",
+			"short" : "Jet d'acrobaties a +10 pour faire un saut avec élan en une action rapide. DD20 : 6m. DD+5 : +1.5m",
+				"discipline" : "Thrashing Dragon",
+			"tags" : [],
+			"lvl" : 1,
+			"type" : "Boost",
+			"action" : "1 swift action",
+			"range" : "Personal",
+			"target" : "You",
+			"duration" : "instant",
+			"description" : "As a dragon takes wing, his powerful legs thrust him skyward as his wings spread out to clutch the air. The disciple of the Thrashing Dragon uses this technique to suddenly launch himself into the air as if he were attempting flight. The initiator may make an Acrobatics check to jump as a swift action, and he gains a +10 competence bonus to his Acrobatics check and is treated as if he had a running start."
+		},
+		
+		{
+			"name" : "Sting of the Asp",
+			"short" : "Inflige 1D6 dégats supplémentaires et force la cible à effectuer un jet de vigueur. 2 dégats de force +2 le round suivant en cas d'échec, 1 dégat de force sinon.",
+			"discipline" : "Steel Serpent",
+			"tags" : [],
+			"lvl" : 2,
+			"type" : "Strike",
+			"action" : "1 standard action",
+			"range" : "Melee attack or ranged attack",
+			"target" : "One creature",
+			"description" : "By hardening ki along edge of his weapon, the Steel Serpent disciple uses the pressure of his ki to penetrate the defenses of his foe. The disciple makes an attack against a foe which if successful inflicts an additional 2d6 points of damage and ignores any damage reduction the target may possess. Additionally, if the disciple is using poison or a prana maneuver with this strike, increase the saving throw DC by +2. This is a supernatural ability."
+		},{
+			"name" : "Solar Sting",
+			"short" : "Remplis une zone de 3x3m de chausses-trappes, infligeant 1d2 de dégat et réduisant la vitesse de déplacement de moitié.",
+			"discipline" : "Solar Wind",
+			"tags" : [],
+			"lvl" : 1,
+			"type" : "Strike",
+			"action" : "1 standard action",
+			"range" : "Ranged attack",
+			"target" : "Area 3x3m",
+			"duration": "2r",
+			"description" : "The Solar Wind disciple readies his attack and launches it into the sky. The weapon crashes down into the targeted area and creates a semi-real field of phantom caltrops. The initiator chooses a target area within range of his ranged attack, and makes an attack roll to hit that location (AC 5 plus any range penalties). The target area (one 10-ft. by 10-ft. square) becomes covered with phantom caltrops of softly glowing light that cause the area to be considered difficult terrain and act as vicious caltrops, using the initiator’s initiation modifier as their attack bonus and inflicting 1d2 points of damage and halving the base speed of any they manage to hit. Targets are denied their armor bonus, shield bonus, and deflection bonus to AC against this attack, but if they’re wearing boots or heavy foot gear they have a +2 armor bonus to their AC against this attack."
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"name" : "Spilled salt",
+			"short" : "Inflige un malus de 4 à un jet d'attaque ou de compétence d'une créature à portée moyenne (36m).",
+			"discipline" : "Cursed Razor",
+			"tags" : [],
+			"lvl" : 1,
+			"type" : "Counter",
+			"action" : "1 immediate action",
+			"range" : "Medium",
+			"target" : "One creature",
+			"duration" : "instant",
+			"description" : "This unsubtle counter disrupts an opponent with a blatant curse, whelming them with misfortune. You can initiate this counter when a creature within range makes an attack roll or skill check. That creature takes a –4 penalty on that attack roll or skill check."
+		}
+	]
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MACe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <link rel="stylesheet" href="js/jquery-ui.css"/>
+    <link rel="stylesheet" href="js/pathofwar.css"/>
+    <script src="js/pathofwar.js"></script>
+    <script src="js/malekith.json"></script>
+    <link rel="stylesheet" href="../MACE-org/js/pathofwar.css">
+</head>
+<body onload="init()">
+<div>
+<button onclick="load();">load</button>
+<button onclick="exporter();">export</button>
+<button onclick="nettoyer();">clear</button>
+<textarea id="menu">
+	
+</textarea>
+</div>
+<div id="content">
+
+</div>
+<!--<div id="readied" class="area">
+  <p>Preparées</p>
+</div>
+<div id="expanded" class="area">
+  <p>Dépensée</p>
+</div>
+<div id="known" class="area">
+  <p>Connues</p>
+</div>-->
+<div id="mother" class="draggable card expanded ui-widget-content">
+    <div class="white cover">
+	</div>
+	<div class="title text">
+		<span class="name"></span><span class="lvl"></span>
+	</div>
+	<div class="content">
+		<div class="type icons"><img title="" src=""></div>
+		<div class="action icons"><img title="" src=""></div>
+		<div class="short text" title="">            
+		</div>
+		<div class="duration icons"><img src="">
+			<div class="text"></div>
+		</div>
+		<div class="range icons"><img title=""
+									  src=""></div>
+		<div class="target icons"><img title="" src=""></div>
+	</div>
+	<div class="reduced">
+	<div class="title text">
+		<span class="name"></span><span class="lvl"></span>
+	</div>
+	<div class="type icons"><img title="" src=""></div>
+		<div class="action icons"><img title="" src=""></div>
+	</div>
+	<div class="reduce">
+	</div>
+
+</div>
+
+
+</body>
+</html>
+
