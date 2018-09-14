@@ -1,85 +1,43 @@
 .card {
-
     width: 316px; /* total 240*336 */
-
     height: 220px;
-
     border: 5px solid black;
-
     border-radius: 10px;
-
-    background:  no-repeat;
-
+    background: no-repeat;
     background-size: 100%;
-
-	position: absolute;
-
+    position: absolute;
 }
-
-
 
 .smallCard {
-
     width: 316px; /* total 240*336 */
-
     height: 40px;
-
     border: 5px solid black;
-
     border-radius: 10px;
-
     background: no-repeat;
-
     background-size: 100%;
-
     position: absolute;
-
 }
-
-
 
 .area {
-
-	width:500px;
-
-	height : 300px;
-
-	border:solid;
-
-	border-width:1px;
-
-	background-color: #cccccf;
-
+    width: 500px;
+    height: 300px;
+    border: solid;
+    border-width: 1px;
+    background-color: #cccccf;
 }
 
-
-
 .white {
-
     background-color: #ffffff;
-
     /*border: 1px solid black;*/
-
     opacity: 0.45;
-
-
-
     height: 100%;
-
 }
 
 .black {
-
     background-color: #111111;
-
     /*border: 1px solid black;*/
-
     opacity: 0.8;
-
-
-
     height: 100%;
-
 }
 
 .reduce {
@@ -92,188 +50,96 @@
     cursor: ns-resize;
 }
 
-
 .text {
-
     padding: 2px;
-
-	font-family: "Book Antiqua";
-
+    font-family: "Book Antiqua";
     user-select: none;
-
     cursor: default;
 }
 
-
-
 .title {
-
-	position: absolute;
-
+    position: absolute;
     top: 18px;
-
     font-size: larger;
-
     font-weight: bold;
-
-	width: 100%;
-
-	font-family: "Book Antiqua";
-
+    width: 100%;
+    font-family: "Book Antiqua";
     align-items: center;
-
     display: flex;
 }
 
-
-
-.title span.name{
-
+.title span.name {
     position: absolute;
-
     margin-left: 45px;
-
     max-width: 215px;
 }
 
-
-
-.title span.lvl{
-
+.title span.lvl {
     position: absolute;
-
     right: 45px;
-
 }
-
-
 
 .short {
-
-	margin: 5px;
-
+    margin: 5px;
     position: absolute;
-
     top: 40px;
-
     left: 0px;
-
-	font-family: "Book Antiqua";
-
-
-
+    font-family: "Book Antiqua";
 }
-
-
 
 .smallCard .short {
-
     display: none;
-
 }
-
-
 
 .icons {
-
     margin: 0 5px 0 5px;
-
 }
-
-
 
 .icons img {
-
     width: 32px;
-
     height: 32px;
-
     vertical-align: middle;
-
 }
-
-
 
 .type {
-
     position: absolute;
-
     top: 3px;
-
     left: 0px;
-
 }
-
-
 
 .action {
-
     position: absolute;
-
     top: 3px;
-
     right: 0px;
-
 }
-
-
 
 .duration {
-
     position: absolute;
-
     bottom: 3px;
-
     left: 100px;
-
     display: flex;
-
 }
-
-
 
 .smallCard .duration {
-
     display: none;
-
 }
-
-
 
 .range {
-
     position: absolute;
-
     bottom: 3px;
-
     left: 0px;
-
 }
-
-
 
 .smallCard .range {
-
     display: none;
-
 }
-
-
 
 .target {
-
     position: absolute;
-
     bottom: 3px;
-
     right: 0px;
-
 }
 
-
-
 .smallCard .target {
-
     display: none;
-
 }
