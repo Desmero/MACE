@@ -23,8 +23,8 @@ $1\n
 \n\n([^\t\n]*)\n([^\t]*)\1\t([^\n]*)
 \n\n$1\n$3\n$2
 	--
-\n(.+)\n(.+)\nDiscipline:(.+) \((.+)\)?(\[(.+)\])?; Level: ([1-9])\n(Prerequisite\(?s\)?: (.+)\n)?Initiation Action: (.+)\nRange: (.+)\n(Target|Area): (.+)\nDuration: (.+)\n(Saving Throw:.*\n)?DESCRIPTION\n(.+(Augment: .*\n)?(• .*\n)*)\n
-{\n"name" : "$1",\n"short" : "$2",\n"discipline" : "$3",\n"tags" : ["$6"],\n"lvl" : $7,\n"type" : "$4",\n"action" : "$10",\n"range" : "$11",\n"target" : "$13",\n"duration" : "$14",\n"description" : "$16"\n},\n
+\n(.+)\n(.+)\nDiscipline:(.+) \((.+)\)?(\[(.+)\])?; Level: ([1-9])\n(Prerequisite\(?s\)?: (.+)\n)?Initiation Action: (.+)\nRange: (.+)\n((Target|Area): (.+)\n)?Duration: (.+)\n(Saving Throw:.*\n)?DESCRIPTION\n(.+(Augment: .*\n)?(• .*\n)*)\n
+{\n"name" : "$1",\n"short" : "$2",\n"discipline" : "$3",\n"tags" : ["$6"],\n"lvl" : $7,\n"type" : "$4",\n"action" : "$10",\n"range" : "$11",\n"target" : "$14",\n"duration" : "$15",\n"description" : "$17"\n},\n
 	--
 "([a-z]*), (.*)"
 "$1", "$2"
