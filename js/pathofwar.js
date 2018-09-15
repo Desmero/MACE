@@ -23,13 +23,13 @@ function getTarget(name) {
 
 function getImg(name) {
     var result = name.replace(/\s/g, '').toLowerCase();
-    result = "img/" + result + ".png";
+    result = "img/icons/" + result + ".png";
     return result;
 }
 
 function getBgImg(name) {
     var result = name.replace(/\s/g, '').toLowerCase();
-    result = 'url("img/' + result + '.jpg")';
+    result = 'url("img/background/' + result + '.jpg")';
 
     return result;
 }
@@ -134,15 +134,17 @@ function loadData() {
 
     $("#content .card").draggable({stack: "#content .card", snap: true});
     $("#mother").hide();
-    $(".area").draggable({snap: true});
-    $(".area").resizable();
+    $(".area")
+        .draggable({snap: true})
+        .resizable();
     $("#menu").resizable();
 
     var x = 20;
     var y = 80;
     for (i = 0; i < size; i++) {
-        $("#" + i).css("left", x);
-        $("#" + i).css("top", y);
+        $("#" + i)
+            .css("left", x)
+            .css("top", y);
         x = x + 200;
         if (x > window.innerWidth - 200) {
             x = 20 + i;

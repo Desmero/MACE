@@ -10,29 +10,17 @@
     <link rel="stylesheet" href="js/pathofwar.css"/>
     <script src="js/pathofwar.js"></script>
     <script src="js/malekith.json"></script>
-    <link rel="stylesheet" href="../MACE-org/js/pathofwar.css">
 </head>
 <body onload="init()">
+
 <div>
     <button onclick="load();">load</button>
     <button onclick="exporter();">export</button>
     <button onclick="nettoyer();">clear</button>
-    <textarea id="menu">
-	
-</textarea>
+    <textarea id="menu"></textarea>
 </div>
-<div id="content">
+<div id="content"></div>
 
-</div>
-<!--<div id="readied" class="area">
-  <p>Preparées</p>
-</div>
-<div id="expanded" class="area">
-  <p>Dépensée</p>
-</div>
-<div id="known" class="area">
-  <p>Connues</p>
-</div>-->
 <div id="mother" class="draggable card expanded ui-widget-content">
     <div class="white cover">
     </div>
@@ -40,7 +28,9 @@
         <span class="name"></span><span class="lvl"></span>
     </div>
     <div class="content">
-        <div class="duration icons"><img src=""><div class="text"></div></div>
+        <div class="duration icons"><img src="">
+            <div class="text"></div>
+        </div>
         <div class="range icons"><img title="" src=""></div>
         <div class="target icons"><img title="" src=""></div>
         <div class="type icons"><img title="" src=""></div>
@@ -50,7 +40,6 @@
     <div class="reduce">
     </div>
 </div>
-
 
 </body>
 </html>
