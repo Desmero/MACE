@@ -99,19 +99,20 @@ function loadData() {
         $(node).find(".type img").attr("title", card.type);
         $(node).find(".action img").attr("src", getImg(card.action));
         $(node).find(".action img").attr("title", card.action);
-        if (card.range == 'Personal') {
+        if (card.range === 'Personal') {
             $(node).find(".range").remove();
         } else {
             $(node).find(".range img").attr("src", getImg(card.range));
             $(node).find(".range img").attr("title", card.range);
         }
 
-        $(node).find(".target img").attr("src", getImg(getTarget(card.target)))
-        $(node).find(".target img").attr("title", card.target)
-        if (card.duration == 'instant') {
+        $(node).find(".target img").attr("src", getImg(getTarget(card.target)));
+        $(node).find(".target img").attr("title", card.target);
+        if (card.duration === 'instant' || card.duration === undefined) {
             $(node).find(".duration").remove();
         } else {
-            $(node).find(".duration span").text(card.duration);
+            $(node).find(".duration img").attr("src", getImg(getTarget("duration")));
+            $(node).find(".duration div").text(card.duration);
         }
         $(node).find(".short").text(card.short);
         $(node).find(".short").attr("title", card.description);

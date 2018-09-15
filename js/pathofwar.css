@@ -105,6 +105,10 @@
     vertical-align: middle;
 }
 
+.icons .text {
+    margin: 4px;
+}
+
 .type {
     position: absolute;
     top: 3px;
