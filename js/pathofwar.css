@@ -6,6 +6,10 @@
     background: no-repeat;
     background-size: 100%;
     position: absolute;
+    -webkit-transition: height 0.25s ease;
+    -moz-transition: height 0.25s ease;
+    -o-transition: height 0.25s ease;
+    transition: height 0.25s ease;
 }
 
 .smallCard {
