@@ -123,7 +123,7 @@ function loadData() {
         });
 
         $(node).dblclick(function () {
-            $(this).closest(".card").find(".white, .black").toggleClass('white black');
+            $(this).closest(".card").toggleClass('white black');
         });
 
 
