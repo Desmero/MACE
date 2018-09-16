@@ -80,7 +80,7 @@ function tryParse() {
 
 function init() {
 
-    var temp = readJSON('js/malekith.json');
+    var temp = readJSON('json/all.json');
 
     data = JSON.parse(temp);
     loadData();
@@ -146,10 +146,10 @@ function loadData() {
         $("#" + i)
             .css("left", x)
             .css("top", y);
-        x = x + 200;
-        if (x > window.innerWidth - 200) {
-            x = 20 + i;
-            y = y + 35;
+        x = x + 325;
+        if (x > window.innerWidth - 360) {
+            x = 20;
+            y = y + 230;
         }
 
     }
