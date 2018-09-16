@@ -95,9 +95,9 @@ function loadData() {
         var node = $("#mother").clone();
         $(node).find(".name").text(card.name);
         $(node).find(".lvl").text(card.lvl);
-        $(node).find(".type img").attr("src", getImg(card.type));
+        $(node).find(".type img").attr("src", getIcon(card.type, TYPES));
         $(node).find(".type img").attr("title", card.type);
-        $(node).find(".action img").attr("src", getImg(card.action));
+        $(node).find(".action img").attr("src", getIcon(card.action, ACTIONS));
         $(node).find(".action img").attr("title", card.action);
         if (card.range === 'Personal') {
             $(node).find(".range").remove();
