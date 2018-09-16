@@ -30,6 +30,13 @@
     background-color: #cccccf;
 }
 
+.cover {
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
 .white .cover {
     background-color: #ffffff;
     opacity: 0.45;
@@ -57,11 +64,11 @@
     font-family: "Book Antiqua";
     user-select: none;
     cursor: default;
+    font-weight: bold;
 }
 
 .white .text {
     color: black;
-    font-weight: bold;
 }
 
 .black .text {

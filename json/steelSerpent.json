@@ -394,7 +394,10 @@
       "name": "Hooded Cobra Attitude",
       "short": "Gain gaze ability to temporarily paralyze a foe while focusing on them.",
       "discipline": " Steel Serpent",
-      "tags": ["compulsion", "mind-affecting"],
+      "tags": [
+        "compulsion",
+        "mind-affecting"
+      ],
       "lvl": 8,
       "type": "Stance",
       "action": "1 swift action",
@@ -420,7 +423,9 @@
       "name": "Five-Fold Hydra Sting",
       "short": "Chance to instantly slay target and destroy them entirely.",
       "discipline": " Steel Serpent",
-      "tags": ["Death"],
+      "tags": [
+        "Death"
+      ],
       "lvl": 9,
       "type": "Strike",
       "action": "1 standard action",

@@ -46,7 +46,7 @@ const TARGETS = [[CREATURE_PERSONAL, CREATURE_ALLY, CURSED_CREATURE, CREATURE, A
 const NO_DURATION_REG = "(stance|instant)";
 
 function getIcon(val, tab) {
-    if (val === null || val === '') {
+    if (typeof val === "undefined" || val === null || val === '') {
         return;
     }
     let text = val.toLowerCase();

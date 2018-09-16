@@ -1,3 +1,5 @@
+let lastId = 0;
+
 $(function () {
     $(".card").draggable();
 });
@@ -41,13 +43,11 @@ function load() {
     var text = $("#menu").val();
     data = JSON.parse(text);
     loadData();
-
 }
 
 function nettoyer() {
-    for (i = 0; i < size; i++) {
-        $("#" + i).remove();
-    }
+    $('#content .card').remove();
+    lastId = 0;
 }
 
 
@@ -79,10 +79,18 @@ function tryParse() {
 }
 
 function init() {
+    readFile('js/malekith.json');
+    // readFile('json/cursedRazor.json');
+    // readFile('json/eternalGuardien.json');
+    // readFile('json/sleepingGoddess.json');
+    // readFile('json/solarWind.json');
+    // readFile('json/steelSerpent.json');
+    // readFile('json/thrashingDragon.json');
+    // readFile('json/veiledMoon.json');
+}
 
-    // var temp = readJSON('json/all.json');
-    var temp = readJSON('js/malekith.json');
-
+function readFile(file) {
+    var temp = readJSON(file);
     data = JSON.parse(temp);
     loadData();
 }
@@ -91,7 +99,7 @@ function loadData() {
 
     size = data.cards.length;
 
-    for (i = 0; i < size; i++) {
+    for (let i = 0; i < size; i++) {
         var card = data.cards[i];
         var node = $("#mother").clone();
         $(node).find(".name").text(card.name);
@@ -107,7 +115,7 @@ function loadData() {
             $(node).find(".range img").attr("title", card.range);
         }
 
-        $(node).find(".target img").attr("src", getIcon(getTarget(card.target), TARGETS));
+        $(node).find(".target img").attr("src", getIcon(card.target, TARGETS));
         $(node).find(".target img").attr("title", card.target);
         regEx = RegExp('.*' + NO_DURATION_REG + '.*');
         if (card.duration == null || regEx.test(card.duration.toLowerCase())) {
@@ -118,7 +126,7 @@ function loadData() {
         }
         $(node).find(".short").text(card.short);
         $(node).find(".short").attr("title", card.description);
-        $(node).attr("id", i);
+        $(node).attr("id", lastId++);
         $(node).find(".reduce").click(function () {
             $(this).closest(".card").toggleClass('smallCard');
         });
@@ -141,17 +149,22 @@ function loadData() {
         .resizable();
     $("#menu").resizable();
 
-    var x = 20;
-    var y = 80;
-    for (i = 0; i < size; i++) {
-        $("#" + i)
-            .css("left", x)
-            .css("top", y);
-        x = x + 200;
-        if (x > window.innerWidth - 200) {
-            x = 20 + i;
-            y = y + 35;
-        }
+    const xMin = 20;
+    const yMin = 120;
+    const cardLength = 320;
+    let utilLength = window.innerWidth - cardLength - xMin;
 
+    // let x = 325;
+    let x = 225;
+    // let y = 230;
+    let y = 50;
+    let cardsByRow = Math.floor(utilLength / x);
+
+    for (let i = lastId - size ; i < lastId; i++) {
+        let xCard = (i % cardsByRow) * x + xMin;
+        let yCard = Math.floor(i / cardsByRow) * y + yMin;
+        $("#" + i)
+            .css("left", xCard)
+            .css("top", yCard);
     }
 }
