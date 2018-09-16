@@ -22,7 +22,7 @@
       "lvl": 1,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60",
+      "range": "Personal or 60'",
       "target": "You or one ally",
       "duration": "Instantaneous",
       "description": "The most basic tenet of the Sleeping Goddess discipline is that a strong enough belief, channeled through the lens of psionic power, can do anything. With this technique, you momentarily enter a state of denial, asserting through your power that you are not and will not be harmed. You can initiate this counter when you take damage from a melee or ranged attack. Make an Autohypnosis check, using your opponent’s attack roll as the DC. If you succeed, you take only half damage from the attack, although any other effects of the attack are resolved normally.Augment: You can augment this maneuver in one or more of the following ways:• For every power point you spend, you gain a +1 bonus on your Autohypnosis check.• If you spend 3 power points, you take no damage from the attack on a successful Autohypnosis check, rather than half.• If you spend 5 power points, you are completely unaffected by the attack on a successful Autohypnosis check, taking no damage and ignoring any additional effects of the attack.• If you expend your psionic focus while initiating this counter, you can use it in response to an attack damaging an ally within 60 feet. If you do, make an Autohypnosis check as normal, then apply the effects of this counter to that ally rather than yourself."
@@ -38,7 +38,7 @@
       "action": "1 swift action",
       "range": "Personal",
       "target": "You",
-      "duration": "1 round/level (see text)",
+      "duration": "1 round/level",
       "description": "As an adept of the Sleeping Goddess discipline, your greatest weapon is your personal ideology given form. By focusing on all you view as right and just, you can shape psionic might into a soul’s blade. When you initiate this boost, a soul’s blade appears in your hands, taking the form of a masterwork melee weapon you are proficient with. A soul’s blade created with this boost has hardness 10 and 10 hit points, and is treated as a magic weapon for the purposes of overcoming damage reduction. The blade lasts a number of rounds equal to your initiator level before vanishing. If you throw your soul’s blade or otherwise relinquish your grip on it (such as by being disarmed), it dissipates after one round. You can have multiple soul’s blades created at once if you initiate this boost or other boosts that create a soul’s blade multiple times, although only as many as you can wield. If you are currently wielding a mind blade or equivalent weapon (such as a deadly fist’s empowered strikes, a psychic armory’s panoply of blades, or a soulbolt’s mind bolt), you can choose to amplify it instead of this boost’s normal effects. Until the start of your next turn, all such weapons you wield (including those created after initiating this boost) gain the benefit of a weapon special ability equivalent to a +1 enhancement bonus. This ability must be chosen from the list of weapon special abilities you can normally place on your mind blade (see the enhanced mind blade class feature in Chapter 3 of Ultimate Psionics)."
     },
     {
@@ -121,7 +121,7 @@
       "lvl": 2,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60",
+      "range": "Personal or 60'",
       "target": "You or one ally",
       "duration": "Instantaneous",
       "description": "You know that fear is as great an enemy as the foes in front of you, and through this knowledge and your faith in yourself, you can power through even the most terrifying situations. You can initiate this counter when you would become shaken, frightened, or panicked. You reduce the fear by one step (from panicked to frightened, frightened to shaken, or shaken to unafraid), and are treated as having successfully saved against the effect for the purposes of determining if you can be affected again.Augment: You can augment this maneuver in one or more of the following ways:• For every 2 power points you spend, the fear is reduced by an additional step.• If you expend your psionic focus while initiating this counter, you can use it in response to an ally within 60 feet becoming shaken, frightened, or panicked. If you do, you apply the effects of this counter to that ally rather than yourself."
@@ -153,7 +153,7 @@
       "action": "1 swift action",
       "range": "personal",
       "target": "You",
-      "duration": "1 round (see text)",
+      "duration": "1 round",
       "description": "You create a spiritual waypoint tied to your mind and body, allowing you to return to it in an instant for a short time. When you initiate this boost, mark your current location. You may instead teleport back to the marked space as a free action, even if it isn’t your turn, any time during the next round. Using this ability ends this boost. If your former space is occupied, you are instead teleported to the nearest unoccupied space. If you use this ability to move out of the reach or range of an attack, the attack is negated.Augment: You can augment this maneuver in one or more of the following ways:• For every 2 power points you spend, the effect of this boost lasts an additional round.• For every 2 power points you spend, you can teleport to the marked space one additional time before ending this boost."
     },
     {
@@ -354,7 +354,7 @@
       "lvl": 6,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "30",
+      "range": "Personal and 30'",
       "target": "Self",
       "duration": "1 round",
       "description": "With a practiced flourish of your weapon and a surge of spiritual might, you tear magic asunder and redirect its power to assist your allies. You can initiate this counter when in response to being targeted by or within the area of a power, psi-like ability, spell, or spell-like ability. Make an Autohypnosis check with a DC of 11 + the effect’s caster or manifester level. If you succeed, the effect is negated, and all allies within 30 feet of you gain a competence bonus on saving throws equal to 1/2 your initiation modifier for one round.Augment: You can augment this maneuver in one or more of the following ways:• For every 2 power points you spend, the bonuses granted by this counter last an additional round.• If you expend your psionic focus while initiating this counter, you can use it in response to an ally within 60 feet being targeted by or within the area of a power, psi-like ability, spell, or spell-like ability. If you do, make an Autohypnosis check as normal, then apply the effects of this counter to that ally rather than yourself. Your allies within 30 feet of that ally gain the bonus on saving throws from this counter."
@@ -468,7 +468,7 @@
       "lvl": 8,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "100",
+      "range": "Personal and 100'",
       "target": "Self",
       "duration": "Instantaneous",
       "description": "An idea cannot be killed as long as it still inhabits a mind. As a master of the Sleeping Goddess discipline, you have the ability to use this fact to your advantage, channeling overwhelming psionic power through yourself for a brief moment in order to become a living embodiment of your ideals and beliefs. You can initiate this counter when you would be killed or knocked unconscious, either through damage reducing you to 0 or fewer hit points or by an effect that kills you outright (such as a death effect or a vorpal weapon). You do not take the damage or are completely unaffected by the effect, and may move to a space adjacent to any creature within 100 feet that has seen you or otherwise knows who you are. This movement does not provoke attacks of opportunity, nor does it require line of sight or line of effect, although you must be aware that the creature in question is in range. To observers, you seem to vanish and reappear next to the creature, folding out of space and becoming to all eyes a near-flawless, ideal version of yourself for a few seconds before returning to your normal appearance."

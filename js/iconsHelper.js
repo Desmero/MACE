@@ -13,11 +13,32 @@ const TYPES= [[STANCE, STRIKE, BOOST, COUNTER],[STANCE, STRIKE, BOOST, COUNTER]]
 
 const IMMEDIATE = "immediate";
 const SWIFT = "swift";
-const MOUVEMENT = "move";
+const MOVE = "move";
 const STANDARD = "standard";
 const FULL = "fullRound";
-const FULL_REG = "full-round";
-const ACTIONS= [[IMMEDIATE, SWIFT, MOUVEMENT, STANDARD, FULL],[IMMEDIATE, SWIFT, MOUVEMENT, STANDARD, FULL_REG]];
+const FULL_REG = "full[- ]round";
+const ACTIONS= [[IMMEDIATE, SWIFT, MOVE, STANDARD, FULL],[IMMEDIATE, SWIFT, MOVE, STANDARD, FULL_REG]];
+
+const MELEE = "melee";
+const RANGE = "ranged";
+const RANGE_ALT_REG = "([0-9]+)'?";
+const MELEE_RANGE = "meleeRange";
+const MELEE_RANGE_REG = "(melee.*range|range.*melee)";
+const PERSONAL = "personal";
+const PERSONAL_REG = "(personal|you|self)";
+const RANGES= [[MELEE_RANGE, MELEE, RANGE, PERSONAL, RANGE],[MELEE_RANGE_REG, MELEE, RANGE, PERSONAL_REG, RANGE_ALT_REG]];
+
+const CREATURE = "creature";
+const CREATURE_REG = "(creature|enemy|opponents)";
+const CURSED_CREATURE = "creatureCursed";
+const CURSED_CREATURE_REG = "cursed.*" + CREATURE_REG;
+const ALLY = "ally";
+const ALLY_REG = "(ally|allies)";
+const CREATURE_ALLY = "creatureAlly";
+const CREATURE_ALLY_REG = CREATURE_REG + ".*" + ALLY_REG;
+const TARGETS = [[CREATURE_ALLY, CURSED_CREATURE, CREATURE, ALLY, PERSONAL],[CREATURE_ALLY_REG, CURSED_CREATURE_REG, CREATURE_REG, ALLY_REG, PERSONAL_REG]];
+
+const NO_DURATION_REG = "(stance|instant)";
 
 function getIcon(val, tab) {
     if (val === null || val === '') {

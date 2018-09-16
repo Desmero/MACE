@@ -99,16 +99,17 @@ function loadData() {
         $(node).find(".type img").attr("title", card.type);
         $(node).find(".action img").attr("src", getIcon(card.action, ACTIONS));
         $(node).find(".action img").attr("title", card.action);
-        if (card.range === 'Personal') {
+        if (card.range.toLowerCase() === 'personal') {
             $(node).find(".range").remove();
         } else {
-            $(node).find(".range img").attr("src", getImg(card.range));
+            $(node).find(".range img").attr("src", getIcon(card.range, RANGES));
             $(node).find(".range img").attr("title", card.range);
         }
 
-        $(node).find(".target img").attr("src", getImg(getTarget(card.target)));
+        $(node).find(".target img").attr("src", getIcon(getTarget(card.target), TARGETS));
         $(node).find(".target img").attr("title", card.target);
-        if (card.duration === 'instant' || card.duration === undefined) {
+        regEx = RegExp('.*' + NO_DURATION_REG + '.*');
+        if (regEx.test(card.duration.toLowerCase())) {
             $(node).find(".duration").remove();
         } else {
             $(node).find(".duration img").attr("src", getImg(getTarget("duration")));

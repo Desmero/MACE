@@ -25,7 +25,7 @@
       "lvl": 1,
       "type": "Strike",
       "action": "1 standard action",
-      "range": "Melee or ranged attack and 30′",
+      "range": "Melee or ranged attack and 30'",
       "target": "One enemy and one ally",
       "duration": "Instant",
       "description": "You swear to protect your charge, while living or dead, with an unbreakable oath. Make an attack. If it hits, it deals deal weapon damage as normal and a fragment of your life force envelops an ally within 30 feet, granting them a +2 bonus to their AC for one round."
@@ -100,7 +100,7 @@
       "lvl": 2,
       "type": "Boost",
       "action": "1 swift action",
-      "range": "60′",
+      "range": "60'",
       "target": "One creature",
       "duration": "1 round",
       "description": "You fill your target with the fear that prey feels when it sees a mighty predator, impairing their ability to act. When you activate this boost, choose one creature within range that is cowering, shaken, frightened, or panicked. That creature must succeed at a Will save (DC 12 + your initiation modifier) or become dazed for 1 round."
@@ -115,7 +115,7 @@
       "lvl": 2,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "One ally",
       "duration": "Instant",
       "description": "You have learned to use the fear you create as a method of defense for both yourself and your allies. You can initiate this counter in response to a melee or ranged attack being made against an ally (including you) within 60 feet. Make an Intimidate check, using your opponent’s attack roll as the DC. If you succeed, the attack is negated, and the attacker becomes shaken for one round, as if you had demoralized them with the Intimidate check."
@@ -160,7 +160,7 @@
       "lvl": 2,
       "type": "Strike",
       "action": "1 standard action",
-      "range": "Melee attack and 60′",
+      "range": "Melee attack and 60'",
       "target": "One creature",
       "duration": "Instant",
       "description": "You hound a weakened enemy, keeping them in check. When you initiate this strike, you may teleport to any space within 60 feet that is within 10 feet of a creature that is cowering, cursed, shaken, frightened, or panicked. After you teleport, make a melee attack against that creature, if able. If it hits, it deals weapon damage as normal plus an additional 2d6 points of damage."
@@ -205,7 +205,7 @@
       "lvl": 3,
       "type": "Stance",
       "action": "1 immediate action",
-      "range": "Personal and 60′",
+      "range": "Personal and 60'",
       "target": "Self and one ally",
       "duration": "Stance",
       "description": "You bind your soul in a protective embrace around one of your allies. When you enter this stance, choose an ally within 60 feet. While you maintain this stance and as long as that ally is within 60 feet of you, that ally gains a +1 deflection bonus to its AC and a +1 bonus on all saving throws. At initiator level 8th and at every four initiator levels thereafter, these bonuses increase by +1 (up to a maximum of +5 at 20th level). In addition, as long as that ally is within 60 feet of you, it takes only half damage from all wounds and attacks (including special abilities) that deal hit point damage. The amount of damage not taken by the your ally is taken by you. Forms of harm that do not involve hit points, such as charm effects, temporary ability damage, level draining, and death effects, are not shared. If the subject suffers a reduction of hit points from a lowered Constitution score, the reduction is not split with you because it is not hit point damage."
@@ -220,7 +220,7 @@
       "lvl": 3,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "One ally",
       "duration": "Instant",
       "description": "Your knowledge of fear and devotion allows you to absorb and control harmful magics which can affect the mind. You can initiate this counter in response to an ally (including yourself) within 60 feet rolling a saving throw against a mind-affecting effect. You or your ally gains a +4 morale bonus on that saving throw, and if the save is successful, that ally gains a number of temporary hit points equal to the save DC of that effect for a number of rounds equal to your initiator level."
@@ -235,7 +235,7 @@
       "lvl": 4,
       "type": "Strike",
       "action": "1 standard action",
-      "range": "Melee attack and 30′",
+      "range": "Melee attack and 30'",
       "target": "One creature",
       "duration": "Instant",
       "description": "Your deep, disturbing laughter echoes throughout the battlefield filling your foes with dread and causing their wills to falter. Make a melee attack. If it hits, it deals weapon damage as normal plus an additional 4d6 points of damage, and you can make an Intimidate check, treating that check as a demoralize attempt against every opponent within 30 feet. If you successfully demoralize a cursed creature with this strike, that creature becomes frightened for one round in addition to becoming demoralized."
@@ -280,7 +280,7 @@
       "lvl": 4,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "One creature",
       "duration": "Instant",
       "description": "Your supernatural will calls for your enemies to cease resisting and submit to your judgement. You can initiate this counter when an opponent within 60 feet succeeds on a saving throw. That opponent must immediately reroll its save, using the result of the second roll to determine if it succeeded or failed. If that opponent is cursed, it takes a –2 penalty on this reroll."
@@ -310,7 +310,7 @@
       "lvl": 5,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "One creature",
       "duration": "1 round",
       "description": "Your stare fills a creature with supernatural dread, causing them to fear looking into your eyes lest it cause them great harm. You can initiate this counter in response to being targeted by an attack, spell, or power originating from an creature within 60 feet. That creature must succeed at a Reflex save (DC 15 + your initiation modifier) or become blinded for one round, averting its eyes as a result of utter terror. If the target fails its saving throw, the attack or effect suffers a 50% miss chance against you, even if it would normally automatically hit. A creature without eyes or that is already blind is immune to this effect."
@@ -340,7 +340,7 @@
       "lvl": 5,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "Self and one ally",
       "duration": "1 round",
       "description": "You and your ally stand together to defend your position, strengthened by supernatural resolve. When you initate this counter, choose an ally within 60 feet. For one round, you and that ally each take only half the damage you would otherwise take. Damage that is redirected (such as by the shield other spell or the share pain power) or intentionally taken (such as by strike of the steadfast legion) is not reduced."
@@ -400,7 +400,7 @@
       "lvl": 6,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "Allies",
       "duration": "1 round",
       "description": "You share some of your patience and dedication with your allies, allowing them to avoid careless mistakes that would allow an opponent to strike. After initiating this counter, your allies within 60 feet of you do not provoke attacks of opportunity for one round. Any ally that moves further than 60 feet away from you loses this benefit. You can initiate this counter in response to an ally provoking an attack of opportunity from an opponent; if you do, that attack is negated, and the ally gains the full benefits of this counter as normal."
@@ -460,7 +460,7 @@
       "lvl": 7,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "Opponents",
       "duration": "3 rounds",
       "description": "You vow that no foe will land a killing blow against those under your protection. You can initiate this counter in response to a melee or ranged attack being made against another ally within 60 feet. All opponents within 60 feet of you must succeed at a Will save (DC 17 + your initiation modifier) or become cursed for three rounds. While a creature is cursed by this counter, it cannot reduce any creature other than itself below 0 hit points by any means; any additional damage is negated. An affected creature can strike itself as an attack action or part of a full-attack action (dealing damage as normal for the attack) to end this curse."
@@ -475,7 +475,7 @@
       "lvl": 8,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "One creature",
       "duration": "1 turn",
       "description": "Your overwhelming presence castigates a foe, causing them to utterly doubt their own abilities. You can initiate this counter in response to a melee or ranged attack being made against you or an ally by an enemy within 60 feet. Make an Intimidate check, using the creature’s attack roll as the DC. If you succeed, the attack is negated, and that all attacks made by that creature until the end of its turn are treated as if that creature had rolled a natural 1."

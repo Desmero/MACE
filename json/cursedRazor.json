@@ -34,7 +34,7 @@
       "lvl": 1,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "Medium (100′ + 10/level)",
+      "range": "Medium (100' + 10/level)",
       "target": "One creature",
       "duration": "Instant",
       "description": "This unsubtle counter disrupts an opponent with a blatant curse, whelming them with misfortune. You can initiate this counter when a creature within range makes an attack roll or skill check. That creature takes a –4 penalty on that attack roll or skill check."
@@ -144,7 +144,7 @@
       "lvl": 2,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "Personal (see text)",
+      "range": "Personal",
       "target": "One creature",
       "duration": "Instant",
       "description": "With a word you afflict your enemies with the power of your vengeance. You can initiate this counter whenever a cursed creature deals damage to you. Make a Spellcraft check (DC 10 + 1/2 that creature’s Hit Dice + that creature’s Charisma modifier). If you succeed, you deal damage to that creature equal to the damage it did to you. This damage is not subject to damage reduction, immunity, or resistance of any kind."
@@ -258,7 +258,7 @@
       "lvl": 4,
       "type": "Boost",
       "action": "1 swift action",
-      "range": "Medium (100′ + 10/level)",
+      "range": "Medium (100' + 10/level)",
       "target": "Self",
       "duration": "1 round",
       "description": "With a swift gesture, you impede the sorceries of others. When you initiate this boost, one creature within medium range (100 feet + 10 feet per level) develops an ashen brand on a visible part of its body or clothing. The next time the target attempts to cast a spell, manifest a power, or use a psi-like or spell-like ability, they must succeed at a Concentration check (DC 15 + your initiator level + your initiation modifier) or the spell, power, or ability is disrupted (see the Concentration rules in the Pathfinder RPG Core Rulebook). If the target does not attempt to use such an ability within one round, the brand vanishes harmlessly."
@@ -286,7 +286,7 @@
       "lvl": 5,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "Medium (100′ + 10/level)",
+      "range": "Medium (100' + 10/level)",
       "target": "One creature",
       "duration": "1 round",
       "description": "By harming the shadow of your enemy, you can pin them in place. You can initiate this counter in response to a creature within range leaving its space (including via movement such as a being pushed by a gust of wind spell or bull rush combat maneuver, or teleportation effects). The target becomes cursed for one round and stops its movement, dropping to the ground and taking falling damage as normal if it is flying and cannot hover. In addition, the target cannot move or be moved from its space for one round. You cannot stop a creature’s movement if it is within another creature’s space."
@@ -383,7 +383,7 @@
       "lvl": 6,
       "type": "Strike",
       "action": "1 standard action",
-      "range": "Long (400′ + 40/level)",
+      "range": "Long (400' + 40/level)",
       "target": "One creature",
       "duration": "Instant",
       "description": "With a savage curse and a lunge, you teleport your enemy into your weapon. When you initiate this strike, the target must succeed at a Will save (DC 16 + your initiation modifier) or be teleported to an unoccupied space within your melee reach of your choice that is not difficult terrain. If you successfully teleport your target, make a melee attack. If it hits, it deals weapon damage as normal plus an additional 8d6 points of damage."
@@ -463,7 +463,7 @@
       "lvl": 8,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "Medium (100′ + 10/level)",
+      "range": "Medium (100' + 10/level)",
       "target": "One cursed creature",
       "duration": "Instant",
       "description": "Those under your influence find their own powers betraying them. You can initiate this counter in response to any cursed creature making an attack, initiating a maneuver, or using a power, psi-like ability, spell, or spell-like ability targeting you (it may also have other targets, as long as you are one of them). Make a Spellcraft check (DC = 10 + 1/2 the cursed creature’s Hit Dice + the cursed creature’s Charisma modifier). If you succeed, the attack, maneuver, power, psi-like ability, spell, or spell-like ability does not affect its intended target(s) and instead affects up to three targets of your choice within range, even if it would normally affect only one creature."
@@ -476,7 +476,7 @@
       "lvl": 9,
       "type": "Strike",
       "action": "1 standard action",
-      "range": "Close (25′ + 5’/2 levels)",
+      "range": "Close (25' + 5’/2 levels)",
       "target": "Opponents within range",
       "duration": "Instant",
       "description": "The ultimate expression of your grim power, you wrap your enemies in shadow, plunge your blade into the darkness, striking them down with tenebrous copies of your weapon. When you initiate this strike, all opponents within range must succeed at a Reflex save (DC 19 + your initiation modifier) or become immobilized by shadows; all their movement speeds are reduced to 0 for a number of rounds equal to your initiation modifier. Creatures in flight drop to the ground and take falling damage as normal if they cannot hover. In addition, make a melee attack roll as part of this maneuver and compare it to the AC of all creatures within range. Each creature hit by the attack roll takes weapon damage as normal plus an additional 10d6 points of damage. If a target is cursed, this strike’s additional damage increases to 12d8."

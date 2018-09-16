@@ -24,7 +24,7 @@
       "lvl": 1,
       "type": "Strike",
       "action": "1 standard action",
-      "range": "Melee or ranged attack and 30′",
+      "range": "Melee or ranged attack and 30'",
       "target": "One enemy and one ally",
       "duration": "Instant",
       "description": "You swear to protect your charge, while living or dead, with an unbreakable oath. Make an attack. If it hits, it deals deal weapon damage as normal and a fragment of your life force envelops an ally within 30 feet, granting them a +2 bonus to their AC for one round."
@@ -96,7 +96,7 @@
       "lvl": 2,
       "type": "Boost",
       "action": "1 swift action",
-      "range": "60′",
+      "range": "60'",
       "target": "One creature",
       "duration": "1 round",
       "description": "You fill your target with the fear that prey feels when it sees a mighty predator, impairing their ability to act. When you activate this boost, choose one creature within range that is cowering, shaken, frightened, or panicked. That creature must succeed at a Will save (DC 12 + your initiation modifier) or become dazed for 1 round."
@@ -111,7 +111,7 @@
       "lvl": 2,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "One ally",
       "duration": "Instant",
       "description": "You have learned to use the fear you create as a method of defense for both yourself and your allies. You can initiate this counter in response to a melee or ranged attack being made against an ally (including you) within 60 feet. Make an Intimidate check, using your opponent’s attack roll as the DC. If you succeed, the attack is negated, and the attacker becomes shaken for one round, as if you had demoralized them with the Intimidate check."
@@ -155,7 +155,7 @@
       "lvl": 2,
       "type": "Strike",
       "action": "1 standard action",
-      "range": "Melee attack and 60′",
+      "range": "Melee attack and 60'",
       "target": "One creature",
       "duration": "Instant",
       "description": "You hound a weakened enemy, keeping them in check. When you initiate this strike, you may teleport to any space within 60 feet that is within 10 feet of a creature that is cowering, cursed, shaken, frightened, or panicked. After you teleport, make a melee attack against that creature, if able. If it hits, it deals weapon damage as normal plus an additional 2d6 points of damage."
@@ -199,7 +199,7 @@
       "lvl": 3,
       "type": "Stance",
       "action": "1 immediate action",
-      "range": "Personal and 60′",
+      "range": "Personal and 60'",
       "target": "Self and one ally",
       "duration": "Stance",
       "description": "You bind your soul in a protective embrace around one of your allies. When you enter this stance, choose an ally within 60 feet. While you maintain this stance and as long as that ally is within 60 feet of you, that ally gains a +1 deflection bonus to its AC and a +1 bonus on all saving throws. At initiator level 8th and at every four initiator levels thereafter, these bonuses increase by +1 (up to a maximum of +5 at 20th level). In addition, as long as that ally is within 60 feet of you, it takes only half damage from all wounds and attacks (including special abilities) that deal hit point damage. The amount of damage not taken by the your ally is taken by you. Forms of harm that do not involve hit points, such as charm effects, temporary ability damage, level draining, and death effects, are not shared. If the subject suffers a reduction of hit points from a lowered Constitution score, the reduction is not split with you because it is not hit point damage."
@@ -213,7 +213,7 @@
       "lvl": 3,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "One ally",
       "duration": "Instant",
       "description": "Your knowledge of fear and devotion allows you to absorb and control harmful magics which can affect the mind. You can initiate this counter in response to an ally (including yourself) within 60 feet rolling a saving throw against a mind-affecting effect. You or your ally gains a +4 morale bonus on that saving throw, and if the save is successful, that ally gains a number of temporary hit points equal to the save DC of that effect for a number of rounds equal to your initiator level."
@@ -228,7 +228,7 @@
       "lvl": 4,
       "type": "Strike",
       "action": "1 standard action",
-      "range": "Melee attack and 30′",
+      "range": "Melee attack and 30'",
       "target": "One creature",
       "duration": "Instant",
       "description": "Your deep, disturbing laughter echoes throughout the battlefield filling your foes with dread and causing their wills to falter. Make a melee attack. If it hits, it deals weapon damage as normal plus an additional 4d6 points of damage, and you can make an Intimidate check, treating that check as a demoralize attempt against every opponent within 30 feet. If you successfully demoralize a cursed creature with this strike, that creature becomes frightened for one round in addition to becoming demoralized."
@@ -270,7 +270,7 @@
       "lvl": 4,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "One creature",
       "duration": "Instant",
       "description": "Your supernatural will calls for your enemies to cease resisting and submit to your judgement. You can initiate this counter when an opponent within 60 feet succeeds on a saving throw. That opponent must immediately reroll its save, using the result of the second roll to determine if it succeeded or failed. If that opponent is cursed, it takes a –2 penalty on this reroll."
@@ -298,7 +298,7 @@
       "lvl": 5,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "One creature",
       "duration": "1 round",
       "description": "Your stare fills a creature with supernatural dread, causing them to fear looking into your eyes lest it cause them great harm. You can initiate this counter in response to being targeted by an attack, spell, or power originating from an creature within 60 feet. That creature must succeed at a Reflex save (DC 15 + your initiation modifier) or become blinded for one round, averting its eyes as a result of utter terror. If the target fails its saving throw, the attack or effect suffers a 50% miss chance against you, even if it would normally automatically hit. A creature without eyes or that is already blind is immune to this effect."
@@ -327,7 +327,7 @@
       "lvl": 5,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "Self and one ally",
       "duration": "1 round",
       "description": "You and your ally stand together to defend your position, strengthened by supernatural resolve. When you initate this counter, choose an ally within 60 feet. For one round, you and that ally each take only half the damage you would otherwise take. Damage that is redirected (such as by the shield other spell or the share pain power) or intentionally taken (such as by strike of the steadfast legion) is not reduced."
@@ -385,7 +385,7 @@
       "lvl": 6,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "Allies",
       "duration": "1 round",
       "description": "You share some of your patience and dedication with your allies, allowing them to avoid careless mistakes that would allow an opponent to strike. After initiating this counter, your allies within 60 feet of you do not provoke attacks of opportunity for one round. Any ally that moves further than 60 feet away from you loses this benefit. You can initiate this counter in response to an ally provoking an attack of opportunity from an opponent; if you do, that attack is negated, and the ally gains the full benefits of this counter as normal."
@@ -444,7 +444,7 @@
       "lvl": 7,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "Opponents",
       "duration": "3 rounds",
       "description": "You vow that no foe will land a killing blow against those under your protection. You can initiate this counter in response to a melee or ranged attack being made against another ally within 60 feet. All opponents within 60 feet of you must succeed at a Will save (DC 17 + your initiation modifier) or become cursed for three rounds. While a creature is cursed by this counter, it cannot reduce any creature other than itself below 0 hit points by any means; any additional damage is negated. An affected creature can strike itself as an attack action or part of a full-attack action (dealing damage as normal for the attack) to end this curse."
@@ -459,7 +459,7 @@
       "lvl": 8,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "60′",
+      "range": "60'",
       "target": "One creature",
       "duration": "1 turn",
       "description": "Your overwhelming presence castigates a foe, causing them to utterly doubt their own abilities. You can initiate this counter in response to a melee or ranged attack being made against you or an ally by an enemy within 60 feet. Make an Intimidate check, using the creature’s attack roll as the DC. If you succeed, the attack is negated, and that all attacks made by that creature until the end of its turn are treated as if that creature had rolled a natural 1."
@@ -546,7 +546,7 @@
       "action": "1 swift action",
       "range": "Personal",
       "target": "You",
-      "duration": "1 round/level (see text)",
+      "duration": "1 round/level",
       "description": "As an adept of the Sleeping Goddess discipline, your greatest weapon is your personal ideology given form. By focusing on all you view as right and just, you can shape psionic might into a soul’s blade. When you initiate this boost, a soul’s blade appears in your hands, taking the form of a masterwork melee weapon you are proficient with. A soul’s blade created with this boost has hardness 10 and 10 hit points, and is treated as a magic weapon for the purposes of overcoming damage reduction. The blade lasts a number of rounds equal to your initiator level before vanishing. If you throw your soul’s blade or otherwise relinquish your grip on it (such as by being disarmed), it dissipates after one round. You can have multiple soul’s blades created at once if you initiate this boost or other boosts that create a soul’s blade multiple times, although only as many as you can wield. If you are currently wielding a mind blade or equivalent weapon (such as a deadly fist’s empowered strikes, a psychic armory’s panoply of blades, or a soulbolt’s mind bolt), you can choose to amplify it instead of this boost’s normal effects. Until the start of your next turn, all such weapons you wield (including those created after initiating this boost) gain the benefit of a weapon special ability equivalent to a +1 enhancement bonus. This ability must be chosen from the list of weapon special abilities you can normally place on your mind blade (see the enhanced mind blade class feature in Chapter 3 of Ultimate Psionics)."
     },
     {
@@ -661,7 +661,7 @@
       "action": "1 swift action",
       "range": "personal",
       "target": "You",
-      "duration": "1 round (see text)",
+      "duration": "1 round",
       "description": "You create a spiritual waypoint tied to your mind and body, allowing you to return to it in an instant for a short time. When you initiate this boost, mark your current location. You may instead teleport back to the marked space as a free action, even if it isn’t your turn, any time during the next round. Using this ability ends this boost. If your former space is occupied, you are instead teleported to the nearest unoccupied space. If you use this ability to move out of the reach or range of an attack, the attack is negated.Augment: You can augment this maneuver in one or more of the following ways:• For every 2 power points you spend, the effect of this boost lasts an additional round.• For every 2 power points you spend, you can teleport to the marked space one additional time before ending this boost."
     },
     {
@@ -1075,7 +1075,7 @@
       "action": "1 standard action",
       "range": "Ranged attack",
       "target": "10-ft. by 10-ft. square",
-      "duration": "1 round / 2 initiator levels",
+      "duration": "1 round / 2 levels",
       "description": "The Solar Wind disciple readies his attack and launches it into the sky. The weapon crashes down into the targeted area and creates a semi-real field of phantom caltrops. The initiator chooses a target area within range of his ranged attack, and makes an attack roll to hit that location (AC 5 plus any range penalties). The target area (one 10-ft. by 10-ft. square) becomes covered with phantom caltrops of softly glowing light that cause the area to be considered difficult terrain and act as vicious caltrops, using the initiator’s initiation modifier as their attack bonus and inflicting 1d2 points of damage and halving the base speed of any they manage to hit. Targets are denied their armor bonus, shield bonus, and deflection bonus to AC against this attack, but if they’re wearing boots or heavy foot gear they have a +2 armor bonus to their AC against this attack."
     },
     {
@@ -2372,7 +2372,7 @@
       "action": "1 standard action",
       "range": "Melee touch",
       "target": "One creature",
-      "duration": "Special (see text)",
+      "duration": "Special",
       "description": "The ultimate technique of the Veiled Moon disciple is the ability to lay a mark against a target and shunt it gently into the Astral plane where it may ponder its reasons for crossing the likes of a master. The initiator makes a melee touch attack against a target, who then makes a Will save (DC 19 + initiation modifier). Failure indicates that the target is shifted fully into the Astral plane, body and all, and the target may not return to the Material plane for one hour. If the foe has no way to return to the Material plane after this duration has expired, he is effectively stranded and must find his own way back to his world. If the target succeeds his saving throw, he is still shunted to the Astral plane, but returns automatically to the Material plane after one minute. While in the Astral plane, the target is tethered to his body at the location he occupied before being pushed into the Astral Plane with a silver cord as normal (per astral projection)."
     },
     {
@@ -2919,7 +2919,7 @@
       "lvl": 1,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "Medium (100′ + 10/level)",
+      "range": "Medium (100' + 10/level)",
       "target": "One creature",
       "duration": "Instant",
       "description": "This unsubtle counter disrupts an opponent with a blatant curse, whelming them with misfortune. You can initiate this counter when a creature within range makes an attack roll or skill check. That creature takes a –4 penalty on that attack roll or skill check."
@@ -3029,7 +3029,7 @@
       "lvl": 2,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "Personal (see text)",
+      "range": "Personal",
       "target": "One creature",
       "duration": "Instant",
       "description": "With a word you afflict your enemies with the power of your vengeance. You can initiate this counter whenever a cursed creature deals damage to you. Make a Spellcraft check (DC 10 + 1/2 that creature’s Hit Dice + that creature’s Charisma modifier). If you succeed, you deal damage to that creature equal to the damage it did to you. This damage is not subject to damage reduction, immunity, or resistance of any kind."
@@ -3143,7 +3143,7 @@
       "lvl": 4,
       "type": "Boost",
       "action": "1 swift action",
-      "range": "Medium (100′ + 10/level)",
+      "range": "Medium (100' + 10/level)",
       "target": "Self",
       "duration": "1 round",
       "description": "With a swift gesture, you impede the sorceries of others. When you initiate this boost, one creature within medium range (100 feet + 10 feet per level) develops an ashen brand on a visible part of its body or clothing. The next time the target attempts to cast a spell, manifest a power, or use a psi-like or spell-like ability, they must succeed at a Concentration check (DC 15 + your initiator level + your initiation modifier) or the spell, power, or ability is disrupted (see the Concentration rules in the Pathfinder RPG Core Rulebook). If the target does not attempt to use such an ability within one round, the brand vanishes harmlessly."
@@ -3171,7 +3171,7 @@
       "lvl": 5,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "Medium (100′ + 10/level)",
+      "range": "Medium (100' + 10/level)",
       "target": "One creature",
       "duration": "1 round",
       "description": "By harming the shadow of your enemy, you can pin them in place. You can initiate this counter in response to a creature within range leaving its space (including via movement such as a being pushed by a gust of wind spell or bull rush combat maneuver, or teleportation effects). The target becomes cursed for one round and stops its movement, dropping to the ground and taking falling damage as normal if it is flying and cannot hover. In addition, the target cannot move or be moved from its space for one round. You cannot stop a creature’s movement if it is within another creature’s space."
@@ -3268,7 +3268,7 @@
       "lvl": 6,
       "type": "Strike",
       "action": "1 standard action",
-      "range": "Long (400′ + 40/level)",
+      "range": "Long (400' + 40/level)",
       "target": "One creature",
       "duration": "Instant",
       "description": "With a savage curse and a lunge, you teleport your enemy into your weapon. When you initiate this strike, the target must succeed at a Will save (DC 16 + your initiation modifier) or be teleported to an unoccupied space within your melee reach of your choice that is not difficult terrain. If you successfully teleport your target, make a melee attack. If it hits, it deals weapon damage as normal plus an additional 8d6 points of damage."
@@ -3348,7 +3348,7 @@
       "lvl": 8,
       "type": "Counter",
       "action": "1 immediate action",
-      "range": "Medium (100′ + 10/level)",
+      "range": "Medium (100' + 10/level)",
       "target": "One cursed creature",
       "duration": "Instant",
       "description": "Those under your influence find their own powers betraying them. You can initiate this counter in response to any cursed creature making an attack, initiating a maneuver, or using a power, psi-like ability, spell, or spell-like ability targeting you (it may also have other targets, as long as you are one of them). Make a Spellcraft check (DC = 10 + 1/2 the cursed creature’s Hit Dice + the cursed creature’s Charisma modifier). If you succeed, the attack, maneuver, power, psi-like ability, spell, or spell-like ability does not affect its intended target(s) and instead affects up to three targets of your choice within range, even if it would normally affect only one creature."
@@ -3361,7 +3361,7 @@
       "lvl": 9,
       "type": "Strike",
       "action": "1 standard action",
-      "range": "Close (25′ + 5’/2 levels)",
+      "range": "Close (25' + 5’/2 levels)",
       "target": "Opponents within range",
       "duration": "Instant",
       "description": "The ultimate expression of your grim power, you wrap your enemies in shadow, plunge your blade into the darkness, striking them down with tenebrous copies of your weapon. When you initiate this strike, all opponents within range must succeed at a Reflex save (DC 19 + your initiation modifier) or become immobilized by shadows; all their movement speeds are reduced to 0 for a number of rounds equal to your initiation modifier. Creatures in flight drop to the ground and take falling damage as normal if they cannot hover. In addition, make a melee attack roll as part of this maneuver and compare it to the AC of all creatures within range. Each creature hit by the attack roll takes weapon damage as normal plus an additional 10d6 points of damage. If a target is cursed, this strike’s additional damage increases to 12d8."
