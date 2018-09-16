@@ -80,6 +80,7 @@ function tryParse() {
 
 function init() {
 
+    // var temp = readJSON('json/all.json');
     var temp = readJSON('js/malekith.json');
 
     data = JSON.parse(temp);
@@ -109,7 +110,7 @@ function loadData() {
         $(node).find(".target img").attr("src", getIcon(getTarget(card.target), TARGETS));
         $(node).find(".target img").attr("title", card.target);
         regEx = RegExp('.*' + NO_DURATION_REG + '.*');
-        if (regEx.test(card.duration.toLowerCase())) {
+        if (card.duration == null || regEx.test(card.duration.toLowerCase())) {
             $(node).find(".duration").remove();
         } else {
             $(node).find(".duration img").attr("src", getImg(getTarget("duration")));
