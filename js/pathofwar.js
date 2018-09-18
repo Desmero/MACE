@@ -154,10 +154,10 @@ function loadData() {
     const cardLength = 320;
     let utilLength = window.innerWidth - cardLength - xMin;
 
-    // let x = 325;
-    let x = 225;
-    // let y = 230;
-    let y = 50;
+    let x = 325;
+    // let x = 225;
+    let y = 230;
+    // let y = 50;
     let cardsByRow = Math.floor(utilLength / x);
 
     for (let i = lastId - size ; i < lastId; i++) {
