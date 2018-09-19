@@ -1,0 +1,529 @@
+{
+  "cards": [
+    {
+      "name": "Breaking Glass Strike",
+      "short": "Your melee attack dazzles the target and may daze them.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "Your vicious strike flares with shards of mirror-bright color that dazzle and dizzy your victim. Make a melee attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Will save (DC 11 + your initiation modifier) or become dazed for one round. Regardless of whether or not the target succeeds at its save, it also becomes dazzled for a number of rounds equal to your initiation modifier."
+    },
+    {
+      "name": "Copycat Cut",
+      "short": "Your melee attack deals +1d6 damage, and you can use one of your target’s attack rolls in place of a later attack.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "With a slight shift of your stance, you mimic an attack you’ve witnessed in the last few seconds of combat. Make a melee attack. If it hits, it deals weapon damage as normal plus an additional 1d6 points of damage, and you can choose to use the result of any attack roll made by your target in their next turn in place of one of your attack rolls in your next turn. If you strike that opponent with their own attack roll, you deal an additional 2d4 points of damage. An attack made using an opponent’s attack roll does not threaten or confirm critical hits."
+    },
+    {
+      "name": "Doppelganger Dance",
+      "short": "You can follow when opponents make 5-foot steps.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "With supernatural alacrity, you mimic your foes’ movements, preventing them from escaping you. While you maintain this stance, whenever an adjacent opponent takes a 5-foot step to leave one of your threatened squares, you may immediately take a 5-foot step towards that opponent, even if you have already moved or taken a 5-foot step this round. Whenever you use this ability, your movement speeds during your next turn are reduced by 5 feet."
+    },
+    {
+      "name": "Funhouse Waltz",
+      "short": "Your speed increases by 10 feet and you can turn while running and charging for one round.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Boost",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "1 round",
+      "description": "With a moment’s concentration, you shift your movements, advancing like a warped reflection. After initiating this boost, you gain a 10-foot enhancement bonus to each of your movement speeds and do not need to move in a straight line while running or charging for one round."
+    },
+    {
+      "name": "Left-Hand Strike",
+      "short": "A successful Craft check causes opponent to lose shield bonus to AC and causes the target to take +1d6 damage from your melee attack.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "A minor twist of reality makes it seem like your strike is two places at once. When you initiate this strike, make a Craft check, using the target’s AC as the DC. Then make a melee attack against the target. If it hits, it deals weapon damage as normal. If your Craft check succeeded, your target loses its shield bonus to AC against this and other attacks this round, and your attack deals an additional 1d6 points of damage."
+    },
+    {
+      "name": "Obsidian Reflection Stance",
+      "short": "You apply a bonus or penalty on attack and damage rolls to all creatures within 20 feet (including you).",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "You emanate an aura that either enhances the perceptions of those within it or makes them warped and twisted. While you maintain this stance, all creatures (including you) within 20 feet of you gain either a +1 bonus on attack and damage rolls or a –1 penalty on attack and damage rolls. Once per round as a free action, you can change which of these effects is applied. These bonuses increase by +1 for every four initiator levels you possess (+/– 2 at 4th level, +/– 3 at 8th level, and so on)."
+    },
+    {
+      "name": "Broken Mirror Strike",
+      "short": "Your melee attack may break the target’s armor or shield.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 2,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "With a mirror-bright slash, you put jagged cracks in your opponent’s defenses. Make a melee attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Reflex save (DC 12 + your initiation modifier) or its armor or shield (your choice) gains the broken condition for a number of rounds equal to your initiator level."
+    },
+    {
+      "name": "Equivocate",
+      "short": "You establish a reflective relationship with an opponent, sharing magical effects between the two of you.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 2,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Close (25′ + 5/2 levels)",
+      "target": "You and one other creature",
+      "duration": "1 round",
+      "description": "You ensnare yourself and a foe in a reflective relationship. You can initiate this counter in response to opponent within close range (25 feet + 5 feet per 2 initiator levels) being targeted by a power, psi-like ability, spell, or spell-like ability. For one round, any such effect targeting that opponent also targets you (and vice versa), even if it normally could not affect that many targets or one of you would be out of range."
+    },
+    {
+      "name": "Mimic’s Gambit",
+      "short": " Your melee attack allows you to copy a spell or power affecting the target.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 2,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "Drawing on your power over reflections and mimicry, you copy an effect from your victim. Make a melee attack. If it hits, it deals weapon damage as normal, and you can choose one spell or power affecting the target. You gain the effects of the spell or power, just as if it had been cast or manifested on you, except that its duration is equal to its duration or a number of rounds equal to your initiation modifier (whichever is lower). If you do not have any knowledge of the spells or powers affecting the target, then choose one at random."
+    },
+    {
+      "name": "Obsidian Razor Style",
+      "short": "You add your Craft ranks as a bonus on damage rolls for one round.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 2,
+      "type": "Boost",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "1 round",
+      "description": "Like obsidian, you create a reflection that is beautiful, dark, and deadly at the edge of your weapon. After initiating this boost, you gain an insight bonus equal to your ranks in one Craft skill (chosen when you initiate this boost) on melee damage rolls for one round."
+    },
+    {
+      "name": "Obsidian Sidestep",
+      "short": "Make a Craft check in place of a saving throw.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 2,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Instant",
+      "description": "With an act of will, you distort reality to avoid harm. You can initiate this counter in response to making a saving throw. Make a Craft check in place of your saving throw, using the result of that check to determine that save’s success."
+    },
+    {
+      "name": "Curse of the Twisted Reflection",
+      "short": "Your melee attack curses the target and may confuse them.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        "curse, mind-affecting"
+      ],
+      "lvl": 3,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "With a hideous strike, you distort the perceptions of your enemies. Make an attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Will save (DC 13 + your initiation modifier) or become confused for a number of rounds equal to your initiation modifier. In addition, a struck target becomes cursed for a number of rounds equal to your initiation modifier, regardless of whether or not it succeeded on its save."
+    },
+    {
+      "name": "Infinity Mirror Stance",
+      "short": "You create mirror images of yourself.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 3,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "By bending the light near yourself, you create a deceptive defense against assault. When you enter this stance, you gain the benefits of a mirror image spell with a caster level equal to your initiator level. Instead of the normal amount of mirror images generated, you create one image for every four initiator levels you possess (minimum 1), and the effect lasts until you enter another stance, at which point any remaining images fade."
+    },
+    {
+      "name": "Reflected Blade Style",
+      "short": "You copy the effects of a strike against a second target within close range.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 3,
+      "type": "Boost",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "1 round",
+      "description": "Your will creates a glimmering mirror of your assaults, afflicting two enemies at once. After initiating this boost, the next strike you initiate with an initiation action of 1 standatd action that targets one creature also affects an additional opponent within close range (25 feet + 5 feet per 2 initiator levels), even if that opponent would normally be out of range of the strike. If the strike requires an attack roll, use the same attack roll against both targets."
+    },
+    {
+      "name": "Shattered Glass Smite",
+      "short": "Your melee attack deals +3d6 damage and creates a 30-foot cone of shattered, magical glass behind them.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 3,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "With your will and your weapon, you shatter reality as you would shatter a mirror, shredding your enemies with false glass. Make a melee attack. If it hits, it deals weapon damage as normal plus an additional 3d6 points of magical slashing damage, and you create a 30-foot cone of shattered glass originating in the target’s space and aimed in a direction of your choice. This cone deals 3d6 points of magical slashing damage to each creature caught within it. You and the initial target of this strike do not take damage from this cone."
+    },
+    {
+      "name": "Blazing Mirror Strike",
+      "short": "You make a touch attack with a weapon you are wielding; the target must make a Fortitude save or become blinded.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 4,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "In a flash of bright death, your weapon transforms into light, passing through your foe’s armor and scorching their eyes. Make a melee touch attack with a weapon you are wielding. If it hits, it deals weapon damage as normal, and the target must succeed at a Fortitude save (DC 14 + your initiation modifier) or become blinded for a number of rounds equal to your initiator level."
+    },
+    {
+      "name": "Carnival Swap",
+      "short": "You trade a power or spell affecting you with one affecting the target.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 4,
+      "type": "Boost",
+      "action": "1 swift action",
+      "range": "Close (25′ + 5/2 levels)",
+      "target": "You and one creature",
+      "duration": "1 round (see text)",
+      "description": "You catch your enemy in the reflection of your blade and twist reality like a funhouse mirror, leaving an unfair trade. The next time this round that you make an attack that hits, you may select one power, psi-like ability, spell, or spell-like ability affecting the struck creature. That creature loses the benefits of the chosen effect and you gain them for a number of rounds equal to your initiation modifier. Select a power, psi-like ability, spell, or spell-like ability affecting you. You lose the chosen effect and the struck creature gains it for a number of rounds equal to your initiation modifier."
+    },
+    {
+      "name": "Doppelganger Waltz",
+      "short": "You can move when your target does.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 4,
+      "type": "Boost",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "1 round",
+      "description": "Like a reflection in the mirror, you follow your enemies’ every move. You can initiate this counter in response to an opponent within close range (25 feet + 5 feet per 2 initiator levels) moving any distance. Whenever that opponent moves this round, you may move an equal distance or up to your speed (whichever is lower) as a free action, even if it isn’t your turn. This movement provokes attacks of opportunity as normal and takes place after your opponent’s movement. You may only move up to three times your highest movement speed in one round using this maneuver. You can only use this counter against a given opponent once per round."
+    },
+    {
+      "name": "Fetch’s Wrath",
+      "short": "Your melee attack deals +4d6 damage, and you can teleport before or after the attack.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        "teleportation"
+      ],
+      "lvl": 4,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Medium (100′ + 10/level)",
+      "target": "Self and one creature",
+      "duration": "Instant",
+      "description": "Like an unquiet spirit, you travel through light and reflections, striking down those foolish enough to tempt your wrath. When you initiate this strike, you may teleport to any unoccupied space within medium range (100 feet + 10 feet per initiator level), then make a melee attack. Alternately, you may make a melee attack and then teleport to unoccupied space within medium range. In either case, the attack you make deals weapon damage as normal plus an additional 4d6 points of damage."
+    },
+    {
+      "name": "Curse of the Smoking Mirror",
+      "short": "Your attack causes the target to fall prey to a reflective curse unless it succeeds at a Will save.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        "curse"
+      ],
+      "lvl": 5,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "With an obsidian-edged blow, you reflect an enemy’s malice back onto itself, tainting them from within. Make a melee attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Will save (DC 15 + your initiation modifier) or fall prey to a reflected curse for a number of rounds equal to your initiation modifier. While affected, the target becomes cursed, and whenever it deals damage (by any means) during this time it takes an equal amount of damage of the same type(s). Damage Reduction, resistances, and immunities are applied to this damage as normal."
+    },
+    {
+      "name": "Empty Frame",
+      "short": "You become incorporeal in response to harm.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 5,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "1 round",
+      "description": "With an effort of will you shed substance but not form. After you initiate this counter, you and all objects worn, carried, or wielded by you become incorporeal for one round."
+    },
+    {
+      "name": "Gleaming Imprisonment",
+      "short": "Your melee attack traps a creature within a sphere of mirrors.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 5,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "Twisting the reflections around your blade, you mark an enemy with it and imprison them in a sphere of mirrors. Make a melee attack. If it hits, it deals weapon damage as normal plus an additional 4d6 points of damage, and the target must succeed at a Reflex save (DC 15 + your initiation modifier) or become trapped within a sphere of two-sided mirrors that forms around them for a number of rounds equal to your initiation modifier. While this sphere of mirrors exists, a trapped creature cannot move or be moved from its space by any means (including teleportation), target or be targeted by any other creature or object (except for objects it is attending, carrying, or using), and is immune to attacks and effects that target an area and originate from outside its space. Such effects originating from the trapped creature affect only its own space."
+    },
+    {
+      "name": "Silvered Mirror Stance",
+      "short": "A power or spell cast on you can also affect allies.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 5,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "Like a prism or a silver mirror, you splash joy and light onto those whom you love. When you enter this stance, choose a single power, psi-like ability, spell, or spell-like ability with a range greater than personal affecting you. While you maintain this stance, allies within 30 feet of you also gain the benefits of the chosen effect for as long as it is affecting you."
+    },
+    {
+      "name": "Copycat’s Cunning",
+      "short": "You copy armor, shield, or weapon special abilities of items wielded by an opponent.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 6,
+      "type": "Boost",
+      "action": "1 swift action",
+      "range": "Close (25′ + 5/2 levels)",
+      "target": "Armor, shield, or weapon",
+      "duration": "See text",
+      "description": "Your supernatural mimicry permits you to ape the tools used by your friends and foes. When you initiate this boost, choose another creature’s armor, shield, or weapon within close range (25 feet + 5 feet per 2 initiator levels. A single piece of equipment wielded or worn by you of the same type as the targeted item may use the enhancement bonus of that item for a number of rounds equal to your initiation modifier. In addition, for the same duration, that piece of equipment gains the properties and special abilities on the chosen item in addition to its own, unless those properties or special abilities could not be applied to your equipment (for example, if you targeted a +2 distant longbow with this boost while wielding a +1 greatsword, your greatsword’s enhancement bonus would increase to +2, but it would not gain the distant weapon special ability)."
+    },
+    {
+      "name": "Cursed Mirror Stance",
+      "short": "You can make additional attacks of opportunity each round equal to your initiation modifier, and attacks that hit you in melee provoke an attack of opportunity from you.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 6,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "You mimic your opponents’ movements, visiting retribution upon them. While you maintain this stance, you can make a number of additional attacks of opportunity each round equal to your initiation modifier. This stacks with the Combat Reflexes feat and other effects that increase the number of attacks of opportunity you can make in a round. In addition, any creature that hits you with a melee attack or melee touch attack provokes an attack of opportunity from you."
+    },
+    {
+      "name": "Murderous Reflection",
+      "short": " Your melee attack gains a bonus equal to the target’s Strength modifier on the attack roll and deals +7d6 damage.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 6,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "Like something out of a nightmare you turn an opponent’s strength against them. Make a melee attack with a bonus on your attack roll equal to the target’s Strength modifier. If it hits, it deals weapon damage as normal plus an additional 7d6 points of damage."
+    },
+    {
+      "name": "Plagiarism",
+      "short": "You temporarily steal an ability used against you.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 6,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "See text",
+      "description": "You copy an opponent’s technique, stripping it from them in the process. You can initiate this counter in response to being targeted with a power, psi-like ability, spell, spell-like ability, or supernatural ability. The creature targeting you becomes unable to use that ability for a number of rounds equal to your initiation modifier (although the ability they targeted you with still occurs and is resolved as normal) and you gain the ability to use that ability for a number of rounds equal to your initiation modifier. If the ability is a spell, you can use it once as a spell-like ability. If the ability is a psionic power, you can manifest it once as a psi-like ability. Otherwise, you can use the ability as often as is detailed in the ability description. Calculate the save DCs for the ability based on your initiation modifier and treat your initiator level as your caster level, manifester level, or hit dice, as appropriate for the ability."
+    },
+    {
+      "name": "Warped Glass Strike",
+      "short": "Your melee attack deals +4d6 damage and causes the target to lose the ability to tell friend from foe.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 6,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "You re-write the perceptions of your victim with a blow, turning friend and enemy alike into horrific nightmares that can only be opposed. When you initiate this maneuver, make a melee attack. If you hit, it deals normal weapon damage plus 4d6 and your victim must succeed at a Will save (DC 16 + your initiation modifier) or lose all ability to tell friend from foe for a number of rounds equal to your initiation modifier. A creature so affected treats all other creatures as hostile, forgets all friendships, and targets the closest creature to it or the last creature that dealt damage to it in preference to other targets."
+    },
+    {
+      "name": "Double Team",
+      "short": "Your melee attack knocks the target prone and deals additional damage equal to twice the result of a Craft check.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 7,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "You create a semi-real copy of yourself to attack an opponent, striking them high and low. When you initiate this maneuver, make a melee attack and a Craft check. If the attack hits, it deals normal weapon damage plus additional damage equal to twice the result of the Craft check, and the target is knocked prone."
+    },
+    {
+      "name": "Infinite Reflections",
+      "short": "You deliver a cascade of melee attacks.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 7,
+      "type": "Strike",
+      "action": "1 full-round action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "As your blade connects, you seem to vanish, before reappearing around your opponent several times in succession and delivering blow after blow. Make a melee attack. If it hits, it deals weapon damage as normal, and you can make another melee attack with a –4 penalty on your attack roll. If that attack hits, you can make a further melee attack at a –8 penalty. You continue to repeat this process, taking a cumulative –4 penalty for each additional attack, until you miss an attack or you reduce your target to 0 or fewer hit points. You must direct all of these attacks at the same creature."
+    },
+    {
+      "name": "Mirror Demon’s Waltz",
+      "short": "You teleport to an unoccupied space within long range, cursing opponents adjacent to you and rendering them flat- footed.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        "curse"
+      ],
+      "lvl": 7,
+      "type": "Boost",
+      "action": "1 swift action",
+      "range": "Long (400′ + 40/level)",
+      "target": "You and adjacent opponents",
+      "duration": "Instant",
+      "description": "You step through reflected light, vanishing into the splash of light off of a blade and emerging from a mirror, a prism, or even the reflection in an enemy’s eye. When you initiate this boost, you can teleport to any unoccupied space within long range (400 feet + 40 feet per initiator level). Opponents adjacent to the square you leave and the square you arrive in become cursed and flat-footed for one round."
+    },
+    {
+      "name": "Obsidian Negation",
+      "short": "You make a Craft check against a spell, power, or maneuver to negate its effect and cause the effect’s originator to be unable to use it temporarily.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 8,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Close (25′ + 5/2 levels)",
+      "target": "One creature",
+      "duration": "Stance",
+      "description": "You conjure a shard of black glass, imprisoning not only your enemy’s power but the very concept of the tool he attempts to use. You can initiate this counter in response to opponent within close range (25 feet + 5 feet per 2 initiator levels) casting a spell, initiating a maneuver, manifesting a power, or using a psi-like or spell-like ability. Make a Craft check opposed by your opponent’s caster level, initiator level, or manifester level check (as appropriate) plus their Wisdom modifier; if you succeed, the effect is completely negated, and that opponent may not use it for a number of rounds equal to your initiation modifier."
+    },
+    {
+      "name": "Shattered Mirror Strike",
+      "short": "Your melee attack deals +6d6 damage and causes the target to be unable to see other creatures.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        "mind-affecting"
+      ],
+      "lvl": 8,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "With a casual blow you annihilate your opponent’s perceptions, writing and rewriting their senses until they can only perceive reality as a shattered ruin. Make an attack. If it hits, your attack deals weapon damage as normal plus an additional 6d6 points of damage, and you make a Craft check, using the target’s CMD as the DC. If you succeed, the target’s senses are violently altered for a number of rounds equal to your initiation modifier; it treats all other creatures as having total concealment and suffers a 50% failure chance on spells with verbal or somatic components."
+    },
+    {
+      "name": "Unholy Mirror Stance",
+      "short": "Harmful powers and spells used against opponents within 30 feet of you are copied to affect additional targets.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 8,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "Woe and discord are multiplied by your reflective power. While you maintain this stance, you can choose to have any power, psi-like ability, spell, and/or spell-like ability that targets an opponent within 30 feet also affect a number of secondary targets equal to your initiation modifier. Each secondary target must be within 30 feet of you, and none can be affected more than once. If the original effect requires an attack roll, use the same roll for each target. If the effect deals damage, secondary targets take half as much damage as the primary target, and if it does not deal damage, its save DC is reduced by 4 instead."
+    },
+    {
+      "name": "Septennial Seal",
+      "short": "Your melee attack traps the target’s soul within a mirror for seven years.",
+      "discipline": " Shattered Mirror",
+      "tags": [
+        ""
+      ],
+      "lvl": 9,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant (seven years)",
+      "description": "The ultimate expression of your reflective power creates a mirror behind your victim just before you strike them with your magic-laced blade, blowing their soul out of their body and into your trap. Make a melee attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Will save (DC 19 + your initiation modifier) or die instantly, their soul becoming trapped for seven years in a small steel mirror that appears somewhere on your person. If they succeed at their save, your attack instead deals 13d6 additional damage. Destroying the mirror created by this strike frees your victim’s soul, allowing it to be returned to life as normal."
+    }
+  ]
+}

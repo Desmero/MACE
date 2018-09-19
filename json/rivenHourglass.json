@@ -1,0 +1,544 @@
+{
+  "cards": [
+    {
+      "name": "Clockwatcher",
+      "short": "You can act during a surprise round in which you would not normally be able to act.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Instant",
+      "description": "By pulling your perception forward in time for the barest of moments, you are able to cheat fate and act when most would be caught unaware. Unlike other immediate actions, you can initiate this counter while flat-footed, and can use this maneuver at the beginning of a surprise round you otherwise would not be able to act in. You may act during the surprise round normally."
+    },
+    {
+      "name": "Distorted Clock",
+      "short": "You extend the effects of beneficial spells and powers, and gain resistance against harmful spell effects.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "Magic is a fickle thing, influenced by time, and wanes in power as the sands glitter through the hourglass of existence. You halt this progression within yourself, sustaining abilities that would normally only last a few minutes. You can apply the effects of the Extend Spell metamagic feat (or Extend Power metapsionic feat) to a single beneficial extract, power, psi-like ability, spell, or or spell-like ability cast upon you for as long as you maintain this stance. Leaving this stance causes the duration to resume as normal (each round of the effect spent as half of a round while in this stance). Starting at initiator level 10, you may extend a second effect. In addition, you gain a +2 circumstance bonus on saving throws against harmful effects with a duration of longer than instantaneous."
+    },
+    {
+      "name": "Minute Hand",
+      "short": "You make an attack as a swift action with a –2 penalty.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Boost",
+      "action": "1 swift action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "You make an incredibly swift strike which sacrifices some accuracy for speed. Make a melee attack with a –2 penalty on the attack roll. If it hits, it deals weapon damage as normal."
+    },
+    {
+      "name": "Sands of Time Stance",
+      "short": "You gain a +2 bonus on initiative checks and Reflex Saves.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "By attuning yourself to the ebb and flow of time, you can visualize the time-stream as a metaphorical hourglass in your soul, and learn to manipulate your place within it. While you maintain this stance, you gain a +2 bonus on Initiative checks and Reflex saves. At initiator level 12th, these bonuses increase to +4."
+    },
+    {
+      "name": "Sands of Time Approach",
+      "short": "Your attack may fatigue the target for 1d4 rounds.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee or ranged attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "By wrapping a bit of quintessence around your weapon in the form of a glittering aura, you are capable of striking a foe and burning through the time that he has left. Make an attack. If it hits, it deals weapon damage as normal and the target must succeed at a Will save (DC 11 + your initiation modifier) or become fatigued for 1d4 rounds."
+    },
+    {
+      "name": "Strike the Hourglass",
+      "short": "Your attack may cause the target to lose their next move action.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 1,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee or ranged attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "With a simple strike, you influence time’s attitude towards a foe and their ability to act in battle. Make an attack. If it hits, it deals weapon damage as normal and the target must succeed at a Will save (DC 11 + your initiation modifier) or it can only take a single move action or standard action during its next turn."
+    },
+    {
+      "name": "Chronal Aggression",
+      "short": "Your fire a ray that deals 2d6 + your initiation modifier points of damage and sickens the target.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 2,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Close (25′ + 5/2 levels)",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "A Riven Hourglass disciple must end fights quickly, as the sands of time halt for no man. Heeding this logic, you attack at your foe’s reserves of enduring strength. You fire a ray against an opponent within close range (25 feet + 5 feet per 2 initiator levels). This ray requires a ranged touch attack to hit and deals 2d6 points of damage plus your initiation modifier, and the target must succeed at a Fortitude save (DC 12 + your initiation modifier) or become sickened for one minute. On a successful save, the target is instead sickened for one round."
+    },
+    {
+      "name": "Rapid Strike",
+      "short": "You make two attacks as a standard action.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 2,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "You compress the time needed to strike twice within the span of a single blow. Make two melee attacks against the same creature. If an attack hits, it deals weapon damage as normal."
+    },
+    {
+      "name": "Stopwatch",
+      "short": "Make an Autohypnosis check against an attack roll to take a 5-foot step, potentially negating the attack.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 2,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Instant",
+      "description": "With a dizzying burst of incredible speed, you step out of time, adjusting your position to possibly avoid an attack. You can initiate this counter in response to a melee or ranged attack being made against you. Make an Autohypnosis check, using your opponent’s attack roll as the DC. If you succeed, you may take a 5-foot step as part of this counter. If this movement puts you in a position where the opponent would not have been able to attack you, then the attack is negated."
+    },
+    {
+      "name": "Temporal Burn",
+      "short": "Your attack deals +2d6 damage, overcomes damage reduction, and ignores hardness.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 2,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee or ranged attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "By surrounding your weapon with a bubble of vastly accelerated time, you are able to strike at a foe and burn away at their personal quintessence. Make an attack. If it hits, it deals weapon damage as normal plus an additional 2d6 points of damage, automatically overcomes damage reduction, and ignores hardness."
+    },
+    {
+      "name": "Unhindered Step",
+      "short": "Your land speed increases by 30 feet for one round.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 2,
+      "type": "Boost",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "1 round",
+      "description": "By slowing the falling sands of the Hourglass inside your soul, you are capable of greatly accelerating your movements. After initiating this boost, your land speed increases by 30 feet until the beginning of your next turn. This adjustment is treated as an enhancement bonus. This boost does not affect other modes of movement, such as burrow, climb, fly, or swim."
+    },
+    {
+      "name": "Flickering Defense",
+      "short": "Your opponent must roll twice for their attack and take the worse result, and takes a –4 penalty on their attack roll.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 3,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "60′",
+      "target": "You or one ally",
+      "duration": "Instant",
+      "description": "All actions cause new potential futures, and you can force particularly unlucky futures upon your foes by looking forward and shifting the right sands. You can initiate this counter in response to a melee or ranged attack being made against you or an ally within 60 feet. The attacker takes a –4 penalty on the attack roll, and rolls twice and takes the lower result. You must initiate this counter before the success or failure of the original roll is known."
+    },
+    {
+      "name": "Probability Twist",
+      "short": "You reroll a d20 roll or damage roll. You must take the results of your reroll, even if it’s worse.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 3,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Instant",
+      "description": "While the flows of time are constantly moving, it is possible for a disciple to analyze and alter how the grains fall within his own Hourglass. You can initiate this counter to reroll any one d20 roll or damage roll you make in combat on your turn. You must take the result of the reroll, even if it is worse than the original roll."
+    },
+    {
+      "name": "Riven Hourglass Stance",
+      "short": "You gain a +4 dodge bonus to your AC, a +4 on initiative checks, immunity to slow, and a 20% miss chance against magical effects that target you.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 3,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "By altering the flow of time around yourself, you flicker between potential time paths, slipping quietly between the grains that fall within your Hourglass. While you maintain this stance, you gain a +4 dodge bonus to your AC and a +4 bonus on Initiative checks. In addition, you become immune to the slow spell, and any power, psi- like ability, spell, or spell-like ability that targets only you suffers a 20% miss chance."
+    },
+    {
+      "name": "Temporal Fury",
+      "short": "Your attack deals +2d6 damage and the target must make a Fortitude save or become slowed.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 3,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee or ranged attack",
+      "target": "One living creature",
+      "duration": "Instant",
+      "description": "You surround your weapon with quintessence, the essence of time that withers all things, and strike at your foe with its burning temporal energies. Make an attack. If it hits, it deals weapon damage as normal plus an additional 2d6 points of damage, and the target must succeed at a Fortitude save (DC 13 + your initiation modifier) or be affected as if by a slow spell for two rounds."
+    },
+    {
+      "name": "Time Skitter",
+      "short": "You gain the benefits of a haste spell for a number of rounds equal to your initiation modifier.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 3,
+      "type": "Boost",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "See text",
+      "description": "By accelerating your personal time-stream, you speed up your movements and accelerate your blows for a few moments. After initiating this boost, you gain the benefits of a haste spell for a number of rounds equal to your initiation modifier (+1 to attack rolls, initiative, and Reflex saves, a +30-foot enhancement bonus to movement speeds, and one extra attack when making a full attack)."
+    },
+    {
+      "name": "Chronal Draw",
+      "short": "Your attack deals +3d6 damage and the target must make a Will save or become exhausted.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 4,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee or ranged attack",
+      "target": "One living creature",
+      "duration": "Instant",
+      "description": "By damaging the time-flow on a target’s vital forces, you temporarily age a foe, exhausting their body before their Hourglass can stabilize. Make an attack. If it hits, it deals weapon damage as normal plus an additional 3d6 points of damage, and the target must succeed at a Will save (DC 14 + your initiation modifier) or become exhausted for a number of rounds equal to your initiation modifier."
+    },
+    {
+      "name": "Gift of Time",
+      "short": "You donate part or all of your turn to an ally.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 4,
+      "type": "Boost",
+      "action": "1 swift action",
+      "range": "Touch",
+      "target": "One ally",
+      "duration": "Instant",
+      "description": "By focusing and carefully gathering glittering grains of quintessence from within your Hourglass into your hands, you can donate time to another with a touch. You can only initiate this boost at the start of your turn, before taking any other actions. Select an adjacent ally you can touch. You can choose to grant them a standard, move, or full-round action. That ally can take the action you selected, and must use them immediately, changing their place in the initiative order as if they had readied an action. You lose the chosen action, and cannot take it this turn. You cannot grant more actions than you could normally take during your turn, thus if you are staggered you could not grant an ally a full-round action, only a standard or move action."
+    },
+    {
+      "name": "Temporal Body Adjustment",
+      "short": "You negate any one negative condition that currently affects you.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 4,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Instant",
+      "description": "By reversing the flow of your personal Hourglass, you can turn back time, undoing a harmful event. You can initiate this counter when you would be affected by a negative condition (such as being cursed, dazed, paralyzed, or sickened), or are affected by a negative condition. You ignore the condition that would affect you, or end any one such condition currently affecting you. You cannot negate your death with this counter."
+    },
+    {
+      "name": "Tip the Hourglass",
+      "short": "Your attack deals +4d6 damage and the target must make a Fortitude save or become slowed.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 4,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee or ranged attack",
+      "target": "One living creature",
+      "duration": "Instant",
+      "description": "By wrapping a field of anarchic temporal energy around your weapon, you strike at your foe’s own inner Hourglass, seeking to disrupt its flow. Make a melee attack. If it hits, it deals weapon damage as normal plus an additional 4d6 points of damage, and target must succeed at a Fortitude save (DC 14 + your initiation modifier) or be affected as if by a slow spell for a number of rounds equal to your initiation modifier."
+    },
+    {
+      "name": "Chronal Fission",
+      "short": "You can initiate one counter per round without using an immediate action.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 5,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "You enter a meditative trance, manipulating your personal time to react faster than you otherwise would be able to. While you maintain this stance, you may initiate a single counter each round without using an immediate action. This expends the counter as normal. You can use this stance’s effect to initiate a counter even if you have already used an immediate action this round."
+    },
+    {
+      "name": "Hour Hand",
+      "short": "Make an extra attack with a –4 penalty that deals +4d6 damage.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 5,
+      "type": "Boost",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "1 round",
+      "description": "You compress the timeframe of your attack, sacrificing precision to make a lightning-fast strike. After initiating this boost, you can make one additional attack as part of your next attack action, full-attack action, or strike. This extra attack is made at your highest attack bonus with a –4 penalty on the attack roll. If it hits, it deals weapon damage as normal plus an additional 4d6 points of damage."
+    },
+    {
+      "name": "Sands of Time Tornado",
+      "short": "You attack each adjacent opponent, dealing additional damage equal to twice your initiation modifier and potentially sickening your targets.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 5,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "Adjacent Opponents",
+      "duration": "Instant",
+      "description": "You accelerate your personal Hourglass, speeding up your mind and body to the point that you seem to be a blur, surrounded by a phantom aura of glittering smoke. Make a melee attack roll and compare it to the AC of each adjacent opponent. If the attack roll hits a target, it deals weapon damage as normal plus additional points of damage equal to twice your initiation modifier, and the target must succeed at a Fortitude save (DC 15 + your initiation modifier) or become sickened for 1d4 rounds. Use the same damage roll for each target."
+    },
+    {
+      "name": "Time-Thief’s Talons",
+      "short": "Your attack deals an additional 2 points of damage per initiator level and heals you for the same amount.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 5,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee or ranged attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "Every being holds within its Hourglass sands of time that mark how long they will reside in this world, and you have learned to steal another’s grains to replenish your own. Make an attack. If it hits, it deals weapon damage as normal plus additional points of damage equal to twice your initiator level, and you regain a number of hit points equal to twice your initiator level."
+    },
+    {
+      "name": "Relativity Burst",
+      "short": "You gain a move action.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 5,
+      "type": "Counter",
+      "action": "1 Immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Instant",
+      "description": "By rearranging how your time is managed, you can manipulate the present, shifting your position on the battlefield. When you initiate this counter, you can immediately take a move action. You cannot gain more than one move action per round this way."
+    },
+    {
+      "name": "Sand-Bearer’s Swiftness",
+      "short": "You gain the benefits of a haste spell, immunity to slow, and a 20% miss chance against attacks and effects that target you.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 6,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "You open a floodgate within your soul, channeling time-accelerating energies through your body to move at blindingly-fast speeds. While you maintain this stance, you gain the benefits of a haste spell (+1 to attack rolls, initiative, and Reflex saves, a +30-foot enhancement bonus to movement speeds, and one extra attack when making a full attack), and are immune to the slow spell and similar effects. In addition, your great speed makes you exceptionally hard to hit; all attacks, powers, psi-like abilities, spells, and spell-like abilities targeting only you suffer a 20% miss chance."
+    },
+    {
+      "name": "Shatter the Hourglass",
+      "short": "Your attack may freeze the target in time for 1d4 rounds, paralyzing them.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 6,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "With a heavy blow, you strike your foe’s Hourglass directly, temporarily shattering it and freezing their timeline in place. Make a melee attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Fortitude save (DC 16 + your initiation modifier) or become paralyzed for 1d4 rounds. A successful save negates the paralysis and causes the foe to be affected as if by a slow spell for 1d4 rounds."
+    },
+    {
+      "name": "Temporal Distortion",
+      "short": "You move up to twice your speed without provoking attacks of opportunity.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 6,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Instant",
+      "description": "By finding yourself in an immediate need of action, you are capable of stretching a tiny amount of time into the moments needed to move yourself away from danger. You can initiate this counter to move up to twice your speed without provoking attacks of opportunity. You cannot gain more than one movement from this counter per round."
+    },
+    {
+      "name": "Temporal Wave",
+      "short": "You unleash a 30-foot cone of glimmering temporal energy that slows and may nauseate creatures caught in the area.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 6,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "30′ cone",
+      "target": "One or more creatures",
+      "duration": "Instant",
+      "description": "You reach deep within your soul and pull forth a handful of quintessence to cast at your foes, wreaking havoc upon their ability to act. When you initiate this maneuver, you create a 30-foot cone of quintessence. Creatures caught within the cone must succeed at a Will save (DC 16 + your initiation modifier) or become nauseated and affected as if by a slow spell for a number of rounds equal to your initiation modifier. Creatures that succeed on their save are instead affected as if by a slow spell for one round."
+    },
+    {
+      "name": "Beat the Clock",
+      "short": "You gain a standard action.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 7,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Instant",
+      "description": "You briefly accelerate your personal timeframe, acting so fast that you appear to be a blur. You can initiate this counter to immediately take a standard action, as if you had readied an action. You cannot gain more than one standard action per round this way."
+    },
+    {
+      "name": "Sands of Time Hurricane",
+      "short": "You attack each adjacent opponent twice with a +4 bonus on your attack rolls. A struck target must make a Fortitude save or become nauseated for one round.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 7,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "Opponents withing reach",
+      "duration": "Instant",
+      "description": "By pouring time-accelerating energies through your form, your perception of time grinds to a halt, allowing you to erupt into a whirlwind of perfect strikes and glittering quintessence at supernatural speed. Make two melee attack rolls with a +4 bonus and compare them to the AC of each opponent within your reach. If an attack roll hits a target, it deals weapon damage as normal and the target must succeed at a Fortitude save (DC 17 + your initiation modifier) or become nauseated for one round. Use the same damage rolls for each target."
+    },
+    {
+      "name": "Temporal Dilation",
+      "short": "Your melee touch attack removes a foe from the timestream for 1d4 rounds.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 7,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "Melee attack",
+      "target": "One creature",
+      "duration": "Instant",
+      "description": "By summoning up a time-altering aura into your hand and channeling it through a foe, you can destabilize their Hourglass, pushing them out of sync with the present for a few scant moments. Make a melee touch attack. If it hits, the target disappears from reality for 1d4 rounds. After this duration, the target reappears in exactly the same orientation and condition as before. From the target’s point of view, no time has passed at all. If the space from which the target departed is occupied upon his return to the time stream, he appears in the closest unoccupied space, still in his original orientation. Determine the closest space randomly if necessary. A successful Will save (DC 17 + your initiation modifier) reduces the duration of this strike to one round."
+    },
+    {
+      "name": "God of the Hourglass Stance",
+      "short": "You can act in surprise rounds and within time stop spells, and you gain an additional move or standard action each round.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 8,
+      "type": "Stance",
+      "action": "1 swift action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Stance",
+      "description": "Your control over your own time-stuff allows you to isolate your Hourglass from reality, causing you to move with unparalleled speed and grace and affording you protection from those who would manipulate your quintessence. While you maintain this stance, you are immune to the slow spell and similar effects, and you cannot become fatigued or exhausted. You can always act during a surprise round, even if you’re caught unaware, and if an ally or opponent uses a time stop spell or similar effect while you are within 50 feet of them you can take a single standard action during the duration of that spell or effect. In addition, you may take an additional move or standard action during your turn."
+    },
+    {
+      "name": "Heart of the Time Lord",
+      "short": "You gain the effects of a heal spell when you would be reduced to 0 or fewer hit points.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 8,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Instant",
+      "description": "When the sands within your Hourglass finally run dry, you can force your timeline to restart, willing the sands to reverse within your soul and restore what has been lost. You can initiate this counter in response to taking damage that would reduce you to 0 hit points or less. You recover hit points and are cured of debilitating effects as if a heal spell had been cast on you, using your initiator level as the caster level."
+    },
+    {
+      "name": "Wrath of Time",
+      "short": "You unleash a massive wave of temporal energy, dealing damage and potentially disintegrating anything within a 60-foot cone.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 8,
+      "type": "Strike",
+      "action": "1 standard action",
+      "range": "60′ cone",
+      "target": "Opponents and objects",
+      "duration": "Instant",
+      "description": "You open your Hourglass and those of all around you, willing their grains to scatter in an attempt to outright erase their futures. When you initiate this maneuver, you unleash a 60-foot cone of violent temporal energy, reducing people and objects alike to harmless white sand. Make an Autohypnosis check as part of this strike. Each opponent or object within the area takes damage equal to twice the result of your check. A successful Fortitude save (DC 18 + your initiation modifier) halves the damage. If this damage reduces a creature or object to 0 or fewer hit points, it is entirely disintegrated, leaving only a scattered pile of white dust."
+    },
+    {
+      "name": "Break the Hourglass",
+      "short": "You strike within the moments before an opponent can act against you, gaining a move and standard action (or full-round action) with which to attack your opponent.",
+      "discipline": " Riven Hourglass",
+      "tags": [
+        ""
+      ],
+      "lvl": 9,
+      "type": "Counter",
+      "action": "1 immediate action",
+      "range": "Personal",
+      "target": "Self",
+      "duration": "Instant",
+      "description": "By forcing your will upon the quintessence of the universe and acting within pockets of time so small that blink past within the gap between seconds, you turn time on its end and react to an opponent’s actions before they have even been made. You can initiate this counter in response to being targeted or caught within the area of an attack or effect. You can immediately take a standard action and a move action (or a single full-round action by combining them) before that effect resolves. While taking these actions, you can only attack or otherwise affect the originator of the attack or effect. If you reduce the originator of the attack or effect to 0 or fewer hit points with these actions, then the attack or effect (including parts of the effect that affect other creatures) is completely negated, having been prevented from happening at all. You cannot gain more than one standard action and move action per round this way."
+    }
+  ]
+}

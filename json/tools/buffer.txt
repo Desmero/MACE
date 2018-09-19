@@ -1,0 +1,33 @@
+Blade of Breaking	Make a disarm or sunder attempt against an opponent’s weapon without provoking attacks of opportunity.
+Circular Stance	Flankers do not receive combat bonus against you when flanking.
+Prince’s Attitude	+4 AC against attacks of opportunity while moving, +2 bonus to Reflex and Will saves until next turn.
+Red Zephyr’s Strike	Make a melee attack, then make an immediate 10-ft. movement.
+Scarlet Einhander	+2 shield bonus to AC and +1d6 damage on attacks when fighting with one weapon.
+Scything Strike	Make a melee attack on two adjacent enemies as a single attack.
+Garnet Lance	Melee attack inflicts an additional 2d6 points of damage and ignores damage reduction.
+Regal Blade	Add +2 to attack roll and +1d8 to damage roll on a single melee attack.
+Rising Zenith Strike	Make a Sense Motive check, strike does double damage.
+Sanguine Barrier	Make a Sense Motive check to block an attack.
+Dazing Attack	Make a melee attack, strike inflicts +2d6 points of damage and may daze enemy.
+Scarlet Eye’s Perception	Next melee attack is resolved as a touch attack.
+Strike of Defeat	Make a melee attack against a foe, deals additional damage based on current hit points.
+Unfettered Movement	Gain an additional +10 ft. to base speed, +4 bonus to AC vs. attacks of opportunity.
+Noble Blade	+5 to attack roll and +2d8 to damage roll on a single melee attack.
+Red Zephyr’s Dance	Each successful melee attack allows the martial disciple to move 10 ft. and make an additional attack.
+Sanguine Perseverance	Use Sense Motive in place of relevant save on saving throw.
+Weeping Scarlet Razor	Arterial strike that inflicts an additional 4d6 points of damage and grants the bleeding condition on the target.
+Riddle of Iron	Melee attack that inflicts an additional 5d6 points of damage and dazes a target for one round.
+Ruby Zenith Strike	Make a Sense Motive check, strike does triple damage.
+Sanguine Perfection	Temporarily overcome negative condition ailments.
+Scarlet Riposte	Make a Sense Motive check opposing an enemy’s attack roll, if successful, block the attack then make an immediate counter attack inflicting an additional 3d6 points of damage.
+Blade of Perfection	Melee attack unerringly hits and ignores damage reduction.
+Final Blow	Make a melee attack; if foe is below 25% of maximum hit points, target is slain.
+Red Zephyr’s Fleetness	Add +30 ft. to your movement for the round and 50% miss chance on incoming attacks.
+Scarlet Duelist Attitude	Add +5 insight bonus to AC and initiative.
+Royal Blade	+5 to attack roll and +5d8 to damage roll on a single melee attack, potentially cowering foe.
+Ruby Battle Lord’s Strike	Make a full attack at a single target using full base attack bonus for each attack with a +2 insight bonus.
+Sanguine Proclamation	Powerful attack that inflicts an additional 10d6 points of damage and potentially knocks the target prone.
+Descending Sunset Strike	Make a Sense Motive check, strike does quadruple damage.
+Riddle of Steel	Make a melee attack, strike inflicts an additional 10d6 points of damage and stuns target for 1d4 rounds.
+Scarlet Majesty Stance	Enemies must make a Will save to attack you.
+Heavenly Blade of the Scarlet Throne	Make a melee attack, if successful, add an additional 100 points of damage to your weapon damage and enemy is left paralyzed.
