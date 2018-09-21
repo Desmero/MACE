@@ -29,7 +29,7 @@ const PERSONAL_REG = "(personal|you|self)";
 const RANGES = [[MELEE_RANGE, MELEE, RANGE, PERSONAL, RANGE], [MELEE_RANGE_REG, MELEE, RANGE, PERSONAL_REG, RANGE_ALT_REG]];
 
 const CREATURE = "creature";
-const CREATURE_REG = "(creature|enemy|opponents)";
+const CREATURE_REG = "(creature|enemy|enemies|opponents)";
 const CURSED_CREATURE = "creatureCursed";
 const CURSED_CREATURE_REG = "cursed.*" + CREATURE_REG;
 const CREATURE_PERSONAL = "creaturePersonal";

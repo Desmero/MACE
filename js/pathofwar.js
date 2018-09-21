@@ -80,11 +80,24 @@ function tryParse() {
 
 function init() {
     readFile('js/malekith.json');
+    // readFile('json/blackSeraph.json'); // TODO
+    // readFile('json/brokenBlade.json');
     // readFile('json/cursedRazor.json');
+    // readFile('json/elementalFlux.json');
     // readFile('json/eternalGuardien.json');
+    // readFile('json/goldenLion.json');
+    // readFile('json/ironTortoise.json');
+    // readFile('json/mithralCurrent.json');
+    // readFile('json/piercingThunder.json');
+    // readFile('json/primalFury.json');
+    // readFile('json/rivenHourglass.json');
+    // readFile('json/scarletThrone.json');
+    // readFile('json/silverCrane.json');
+    // readFile('json/shatteredMirror.json');
     // readFile('json/sleepingGoddess.json');
     // readFile('json/solarWind.json');
     // readFile('json/steelSerpent.json');
+    // readFile('json/tempestGale.json');
     // readFile('json/thrashingDragon.json');
     // readFile('json/veiledMoon.json');
 }
